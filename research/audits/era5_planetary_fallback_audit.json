@@ -1,0 +1,628 @@
+{
+  "source": "Microsoft Planetary Computer era5-pds mirror of ECMWF ERA5",
+  "method": "arithmetic mean of all hourly instantaneous u10/v10 analyses in each natural month",
+  "credentials_recorded": false,
+  "months": {
+    "201801": {
+      "item_id": "era5-pds-2018-01-an",
+      "hourly_count": 744,
+      "regions": {
+        "west": {
+          "status": "compared_equivalent",
+          "comparison": {
+            "u10": {
+              "rmse": 0.0006846143622914839,
+              "max_abs": 0.0030088424682617188,
+              "mean_abs": 0.0005460708327212447,
+              "points": 39283
+            },
+            "v10": {
+              "rmse": 0.0006817995301856951,
+              "max_abs": 0.003184378147125244,
+              "mean_abs": 0.0005431602011748453,
+              "points": 39283
+            }
+          },
+          "existing_validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-01-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "compared_equivalent",
+          "comparison": {
+            "u10": {
+              "rmse": 0.00068565741615084,
+              "max_abs": 0.0030460357666015625,
+              "mean_abs": 0.0005474442825153251,
+              "points": 65363
+            },
+            "v10": {
+              "rmse": 0.0006828143915451093,
+              "max_abs": 0.0031212568283081055,
+              "mean_abs": 0.000544359359750836,
+              "points": 65363
+            }
+          },
+          "existing_validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-01-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201803": {
+      "item_id": "era5-pds-2018-03-an",
+      "hourly_count": 744,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-03-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-03-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201804": {
+      "item_id": "era5-pds-2018-04-an",
+      "hourly_count": 720,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-04-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-04-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201805": {
+      "item_id": "era5-pds-2018-05-an",
+      "hourly_count": 744,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-05-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-05-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201806": {
+      "item_id": "era5-pds-2018-06-an",
+      "hourly_count": 720,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-06-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-06-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201807": {
+      "item_id": "era5-pds-2018-07-an",
+      "hourly_count": 744,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-07-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-07-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201808": {
+      "item_id": "era5-pds-2018-08-an",
+      "hourly_count": 744,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-08-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-08-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201809": {
+      "item_id": "era5-pds-2018-09-an",
+      "hourly_count": 720,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-09-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-09-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201810": {
+      "item_id": "era5-pds-2018-10-an",
+      "hourly_count": 744,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-10-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-10-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201811": {
+      "item_id": "era5-pds-2018-11-an",
+      "hourly_count": 720,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-11-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-11-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    },
+    "201812": {
+      "item_id": "era5-pds-2018-12-an",
+      "hourly_count": 744,
+      "regions": {
+        "west": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 333770,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 241
+            },
+            "time": "2018-12-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              120.0,
+              180.0
+            ]
+          }
+        },
+        "east": {
+          "status": "written_from_hourly_mirror",
+          "bytes": 544458,
+          "validation": {
+            "variables": [
+              "u10",
+              "v10"
+            ],
+            "sizes": {
+              "valid_time": 1,
+              "latitude": 163,
+              "longitude": 401
+            },
+            "time": "2018-12-01T00:00:00.000000000",
+            "latitude_range": [
+              -20.25,
+              20.25
+            ],
+            "longitude_range": [
+              -180.0,
+              -80.0
+            ]
+          }
+        }
+      }
+    }
+  },
+  "updated_at_utc": "2026-11-07T11:35:33.415456+00:00"
+}

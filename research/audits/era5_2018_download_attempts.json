@@ -1,0 +1,654 @@
+{
+  "updated_at_utc": "2026-11-07T11:39:05.057000+00:00",
+  "credential_values_recorded": false,
+  "records": [
+    {
+      "month": "201801",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 258873,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-01-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201801",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 188652,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-01-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201802",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 268099,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-02-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201802",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 190614,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-02-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201803",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-03-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201803",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-03-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201804",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-04-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201804",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-04-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201805",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-05-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201805",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-05-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201806",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-06-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201806",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-06-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201807",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-07-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201807",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-07-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201808",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-08-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201808",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-08-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201809",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-09-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201809",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-09-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201810",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-10-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201810",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-10-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201811",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-11-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201811",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-11-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    },
+    {
+      "month": "201812",
+      "region": "east",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 544458,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 401
+        },
+        "time": "2018-12-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          -180.0,
+          -80.0
+        ]
+      }
+    },
+    {
+      "month": "201812",
+      "region": "west",
+      "status": "skipped_valid",
+      "attempts": 0,
+      "bytes": 333770,
+      "validation": {
+        "variables": [
+          "u10",
+          "v10"
+        ],
+        "sizes": {
+          "valid_time": 1,
+          "latitude": 163,
+          "longitude": 241
+        },
+        "time": "2018-12-01T00:00:00.000000000",
+        "latitude_range": [
+          -20.25,
+          20.25
+        ],
+        "longitude_range": [
+          120.0,
+          180.0
+        ]
+      }
+    }
+  ]
+}

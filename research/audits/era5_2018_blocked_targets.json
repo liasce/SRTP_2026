@@ -1,0 +1,25 @@
+{
+  "updated_at_local": "2026-11-07T15:50:38+08:00",
+  "credential_values_recorded": false,
+  "interpretation_boundary": "A local polling timeout is not evidence of invalid credentials, CDS outage, or proxy/TLS failure.",
+  "targets": [
+    {
+      "month": "201803",
+      "region": "west",
+      "attempt": 1,
+      "status": "interrupted_after_bounded_wait",
+      "exception_type": "LocalTaskTimeout",
+      "wait_limit_minutes": 30,
+      "partial_file_present": false
+    },
+    {
+      "month": "201804",
+      "region": "west",
+      "attempt": 1,
+      "status": "interrupted_after_bounded_wait",
+      "exception_type": "LocalTaskTimeout",
+      "wait_limit_minutes": 30,
+      "partial_file_present": false
+    }
+  ]
+}

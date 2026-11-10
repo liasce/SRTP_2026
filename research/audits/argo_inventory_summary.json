@@ -1,0 +1,50 @@
+{
+  "source": "data/raw/profiles/ar_index_global_prof.txt.gz",
+  "source_update": "20260908082415",
+  "filters": {
+    "date": [
+      "20050101",
+      "20250630"
+    ],
+    "latitude": [
+      -20,
+      20
+    ],
+    "longitude_east": [
+      120,
+      280
+    ],
+    "ocean": "P"
+  },
+  "caveat": "Index candidates only; no profile-level T/S, depth, mode, or QC acceptance is implied.",
+  "total_candidates": 531903,
+  "unique_wmos": 3392,
+  "by_split": {
+    "pretrain": {
+      "profiles": 233019,
+      "unique_wmos": 1987
+    },
+    "finetune": {
+      "profiles": 172397,
+      "unique_wmos": 1611
+    },
+    "validation": {
+      "profiles": 55611,
+      "unique_wmos": 1010
+    },
+    "test": {
+      "profiles": 56159,
+      "unique_wmos": 1000
+    },
+    "forward_test": {
+      "profiles": 14717,
+      "unique_wmos": 814
+    }
+  },
+  "rejected_during_filtering": {
+    "outside_time": 343014,
+    "invalid_coordinates": 16616,
+    "outside_region": 2507972,
+    "outside_pacific": 3276
+  }
+}

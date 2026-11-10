@@ -1,0 +1,974 @@
+{
+  "time_window": [
+    "20150401",
+    "20250630"
+  ],
+  "region": [
+    120,
+    280,
+    -20,
+    20
+  ],
+  "argo": {
+    "total_index_records": 3402781,
+    "invalid_date": 19309,
+    "outside_time": 1610629,
+    "invalid_coordinates": 8380,
+    "outside_region": 1463308,
+    "outside_pacific": 2271,
+    "duplicate_file": 0,
+    "retained_records": 298884,
+    "unique_float_ids": 2245
+  },
+  "tao_files": 63,
+  "tao_retained_sites": 63,
+  "tao_excluded_sites": [],
+  "tao_sites": [
+    {
+      "station": "0N 110W",
+      "latitude": 0.0,
+      "longitude_east": 250.0,
+      "accepted_5day_dates": 515,
+      "accepted_temperature_values": 6812,
+      "inspected_values": 7635,
+      "quality_counts": {
+        "1": 1958,
+        "0": 823,
+        "2": 4854
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "0N 125W",
+      "latitude": 0.0,
+      "longitude_east": 235.0,
+      "accepted_5day_dates": 500,
+      "accepted_temperature_values": 5050,
+      "inspected_values": 6231,
+      "quality_counts": {
+        "1": 1094,
+        "2": 3956,
+        "0": 1181
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "0N 140W",
+      "latitude": 0.0,
+      "longitude_east": 220.0,
+      "accepted_5day_dates": 647,
+      "accepted_temperature_values": 7412,
+      "inspected_values": 9072,
+      "quality_counts": {
+        "1": 2784,
+        "2": 4628,
+        "0": 1660
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "0N 147E",
+      "latitude": 0.0,
+      "longitude_east": 147.0,
+      "accepted_5day_dates": 124,
+      "accepted_temperature_values": 1228,
+      "inspected_values": 1240,
+      "quality_counts": {
+        "1": 1228,
+        "0": 12
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20161209"
+    },
+    {
+      "station": "0N 155W",
+      "latitude": 0.0,
+      "longitude_east": 205.0,
+      "accepted_5day_dates": 731,
+      "accepted_temperature_values": 7608,
+      "inspected_values": 7803,
+      "quality_counts": {
+        "1": 2433,
+        "2": 5175,
+        "0": 195
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "0N 156E",
+      "latitude": 0.0,
+      "longitude_east": 156.0,
+      "accepted_5day_dates": 451,
+      "accepted_temperature_values": 4329,
+      "inspected_values": 4510,
+      "quality_counts": {
+        "1": 4322,
+        "2": 7,
+        "0": 181
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20210602"
+    },
+    {
+      "station": "0N 165E",
+      "latitude": 0.0,
+      "longitude_east": 165.0,
+      "accepted_5day_dates": 638,
+      "accepted_temperature_values": 9625,
+      "inspected_values": 10368,
+      "quality_counts": {
+        "2": 7996,
+        "1": 1629,
+        "0": 743
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "0N 170W",
+      "latitude": 0.0,
+      "longitude_east": 190.0,
+      "accepted_5day_dates": 615,
+      "accepted_temperature_values": 7035,
+      "inspected_values": 7392,
+      "quality_counts": {
+        "1": 2239,
+        "2": 4796,
+        "0": 357
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "0N 180W",
+      "latitude": 0.0,
+      "longitude_east": 180.0,
+      "accepted_5day_dates": 594,
+      "accepted_temperature_values": 6359,
+      "inspected_values": 6661,
+      "quality_counts": {
+        "1": 2764,
+        "2": 3595,
+        "0": 302
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "0N  95W",
+      "latitude": 0.0,
+      "longitude_east": 265.0,
+      "accepted_5day_dates": 615,
+      "accepted_temperature_values": 5891,
+      "inspected_values": 6258,
+      "quality_counts": {
+        "2": 4626,
+        "0": 367,
+        "1": 1265
+      },
+      "first_valid_date": "20150418",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2N 110W",
+      "latitude": 2.0,
+      "longitude_east": 250.0,
+      "accepted_5day_dates": 652,
+      "accepted_temperature_values": 6207,
+      "inspected_values": 6754,
+      "quality_counts": {
+        "1": 1411,
+        "0": 547,
+        "2": 4796
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2N 125W",
+      "latitude": 2.0,
+      "longitude_east": 235.0,
+      "accepted_5day_dates": 678,
+      "accepted_temperature_values": 6579,
+      "inspected_values": 7786,
+      "quality_counts": {
+        "1": 1810,
+        "2": 4769,
+        "0": 1207
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2N 137E",
+      "latitude": 2.0,
+      "longitude_east": 137.0,
+      "accepted_5day_dates": 122,
+      "accepted_temperature_values": 1220,
+      "inspected_values": 1230,
+      "quality_counts": {
+        "1": 1220,
+        "0": 10
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20161204"
+    },
+    {
+      "station": "2N 140W",
+      "latitude": 2.0,
+      "longitude_east": 220.0,
+      "accepted_5day_dates": 548,
+      "accepted_temperature_values": 5344,
+      "inspected_values": 5500,
+      "quality_counts": {
+        "1": 1960,
+        "0": 156,
+        "2": 3384
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20241209"
+    },
+    {
+      "station": "2N 147E",
+      "latitude": 2.0,
+      "longitude_east": 147.0,
+      "accepted_5day_dates": 124,
+      "accepted_temperature_values": 1228,
+      "inspected_values": 1240,
+      "quality_counts": {
+        "1": 1228,
+        "0": 12
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20161209"
+    },
+    {
+      "station": "2N 155W",
+      "latitude": 2.0,
+      "longitude_east": 205.0,
+      "accepted_5day_dates": 728,
+      "accepted_temperature_values": 7114,
+      "inspected_values": 7290,
+      "quality_counts": {
+        "1": 1841,
+        "2": 5273,
+        "0": 176
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2N 156E",
+      "latitude": 2.0,
+      "longitude_east": 156.0,
+      "accepted_5day_dates": 124,
+      "accepted_temperature_values": 1240,
+      "inspected_values": 1240,
+      "quality_counts": {
+        "1": 1240
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20161209"
+    },
+    {
+      "station": "2N 165E",
+      "latitude": 2.0,
+      "longitude_east": 165.0,
+      "accepted_5day_dates": 688,
+      "accepted_temperature_values": 6599,
+      "inspected_values": 6890,
+      "quality_counts": {
+        "1": 1845,
+        "0": 291,
+        "2": 4754
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2N 170W",
+      "latitude": 2.0,
+      "longitude_east": 190.0,
+      "accepted_5day_dates": 704,
+      "accepted_temperature_values": 7356,
+      "inspected_values": 7477,
+      "quality_counts": {
+        "1": 2155,
+        "2": 5201,
+        "0": 121
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2N 180W",
+      "latitude": 2.0,
+      "longitude_east": 180.0,
+      "accepted_5day_dates": 599,
+      "accepted_temperature_values": 6172,
+      "inspected_values": 6406,
+      "quality_counts": {
+        "1": 1655,
+        "2": 4517,
+        "0": 234
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250602"
+    },
+    {
+      "station": "2N  95W",
+      "latitude": 2.0,
+      "longitude_east": 265.0,
+      "accepted_5day_dates": 582,
+      "accepted_temperature_values": 5750,
+      "inspected_values": 5928,
+      "quality_counts": {
+        "1": 1526,
+        "0": 178,
+        "2": 4224
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2S 110W",
+      "latitude": -2.0,
+      "longitude_east": 250.0,
+      "accepted_5day_dates": 723,
+      "accepted_temperature_values": 6871,
+      "inspected_values": 7542,
+      "quality_counts": {
+        "1": 2103,
+        "0": 671,
+        "2": 4768
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2S 125W",
+      "latitude": -2.0,
+      "longitude_east": 235.0,
+      "accepted_5day_dates": 667,
+      "accepted_temperature_values": 6411,
+      "inspected_values": 6780,
+      "quality_counts": {
+        "1": 2345,
+        "0": 369,
+        "2": 4066
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2S 140W",
+      "latitude": -2.0,
+      "longitude_east": 220.0,
+      "accepted_5day_dates": 481,
+      "accepted_temperature_values": 5304,
+      "inspected_values": 5650,
+      "quality_counts": {
+        "0": 346,
+        "1": 3089,
+        "2": 2215
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2S 155W",
+      "latitude": -2.0,
+      "longitude_east": 205.0,
+      "accepted_5day_dates": 453,
+      "accepted_temperature_values": 4397,
+      "inspected_values": 4530,
+      "quality_counts": {
+        "2": 2864,
+        "1": 1533,
+        "0": 133
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230930"
+    },
+    {
+      "station": "2S 156E",
+      "latitude": -2.0,
+      "longitude_east": 156.0,
+      "accepted_5day_dates": 125,
+      "accepted_temperature_values": 1184,
+      "inspected_values": 1250,
+      "quality_counts": {
+        "1": 1184,
+        "0": 66
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20161214"
+    },
+    {
+      "station": "2S 165E",
+      "latitude": -2.0,
+      "longitude_east": 165.0,
+      "accepted_5day_dates": 654,
+      "accepted_temperature_values": 7236,
+      "inspected_values": 7840,
+      "quality_counts": {
+        "1": 1889,
+        "2": 5347,
+        "0": 604
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2S 170W",
+      "latitude": -2.0,
+      "longitude_east": 190.0,
+      "accepted_5day_dates": 625,
+      "accepted_temperature_values": 6347,
+      "inspected_values": 6687,
+      "quality_counts": {
+        "0": 340,
+        "2": 4722,
+        "1": 1625
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2S 180W",
+      "latitude": -2.0,
+      "longitude_east": 180.0,
+      "accepted_5day_dates": 731,
+      "accepted_temperature_values": 7491,
+      "inspected_values": 7761,
+      "quality_counts": {
+        "1": 2241,
+        "2": 5250,
+        "0": 270
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "2S  95W",
+      "latitude": -2.0,
+      "longitude_east": 265.0,
+      "accepted_5day_dates": 567,
+      "accepted_temperature_values": 5672,
+      "inspected_values": 5778,
+      "quality_counts": {
+        "1": 2129,
+        "2": 3543,
+        "0": 106
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "5N 110W",
+      "latitude": 5.0,
+      "longitude_east": 250.0,
+      "accepted_5day_dates": 728,
+      "accepted_temperature_values": 7080,
+      "inspected_values": 7367,
+      "quality_counts": {
+        "1": 2107,
+        "2": 4973,
+        "0": 287
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "5N 125W",
+      "latitude": 5.0,
+      "longitude_east": 235.0,
+      "accepted_5day_dates": 609,
+      "accepted_temperature_values": 5890,
+      "inspected_values": 6800,
+      "quality_counts": {
+        "1": 2251,
+        "0": 910,
+        "2": 3639
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20240925"
+    },
+    {
+      "station": "5N 137E",
+      "latitude": 5.0,
+      "longitude_east": 137.0,
+      "accepted_5day_dates": 123,
+      "accepted_temperature_values": 1230,
+      "inspected_values": 1230,
+      "quality_counts": {
+        "1": 1230
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20161204"
+    },
+    {
+      "station": "5N 140W",
+      "latitude": 5.0,
+      "longitude_east": 220.0,
+      "accepted_5day_dates": 521,
+      "accepted_temperature_values": 4992,
+      "inspected_values": 5230,
+      "quality_counts": {
+        "1": 2114,
+        "0": 238,
+        "2": 2878
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "5N 155W",
+      "latitude": 5.0,
+      "longitude_east": 205.0,
+      "accepted_5day_dates": 550,
+      "accepted_temperature_values": 5374,
+      "inspected_values": 5520,
+      "quality_counts": {
+        "2": 3550,
+        "1": 1824,
+        "0": 146
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230528"
+    },
+    {
+      "station": "5N 165E",
+      "latitude": 5.0,
+      "longitude_east": 165.0,
+      "accepted_5day_dates": 641,
+      "accepted_temperature_values": 5914,
+      "inspected_values": 7050,
+      "quality_counts": {
+        "1": 1738,
+        "0": 1136,
+        "2": 4176
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250413"
+    },
+    {
+      "station": "5N 170W",
+      "latitude": 5.0,
+      "longitude_east": 190.0,
+      "accepted_5day_dates": 475,
+      "accepted_temperature_values": 4376,
+      "inspected_values": 4980,
+      "quality_counts": {
+        "1": 2072,
+        "0": 604,
+        "2": 2304
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20241025"
+    },
+    {
+      "station": "5N 180W",
+      "latitude": 5.0,
+      "longitude_east": 180.0,
+      "accepted_5day_dates": 448,
+      "accepted_temperature_values": 4200,
+      "inspected_values": 4490,
+      "quality_counts": {
+        "1": 2079,
+        "2": 2121,
+        "0": 290
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230831"
+    },
+    {
+      "station": "5N  95W",
+      "latitude": 5.0,
+      "longitude_east": 265.0,
+      "accepted_5day_dates": 660,
+      "accepted_temperature_values": 6682,
+      "inspected_values": 6718,
+      "quality_counts": {
+        "1": 1604,
+        "0": 36,
+        "2": 5078
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "5S 110W",
+      "latitude": -5.0,
+      "longitude_east": 250.0,
+      "accepted_5day_dates": 747,
+      "accepted_temperature_values": 7412,
+      "inspected_values": 7564,
+      "quality_counts": {
+        "1": 2157,
+        "2": 5255,
+        "0": 152
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "5S 125W",
+      "latitude": -5.0,
+      "longitude_east": 235.0,
+      "accepted_5day_dates": 538,
+      "accepted_temperature_values": 5266,
+      "inspected_values": 6020,
+      "quality_counts": {
+        "1": 2331,
+        "0": 754,
+        "2": 2935
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20221229"
+    },
+    {
+      "station": "5S 140W",
+      "latitude": -5.0,
+      "longitude_east": 220.0,
+      "accepted_5day_dates": 540,
+      "accepted_temperature_values": 5328,
+      "inspected_values": 5410,
+      "quality_counts": {
+        "1": 2487,
+        "2": 2841,
+        "0": 82
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230324"
+    },
+    {
+      "station": "5S 155W",
+      "latitude": -5.0,
+      "longitude_east": 205.0,
+      "accepted_5day_dates": 577,
+      "accepted_temperature_values": 5514,
+      "inspected_values": 6060,
+      "quality_counts": {
+        "2": 3812,
+        "1": 1702,
+        "0": 546
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20240627"
+    },
+    {
+      "station": "5S 165E",
+      "latitude": -5.0,
+      "longitude_east": 165.0,
+      "accepted_5day_dates": 718,
+      "accepted_temperature_values": 6916,
+      "inspected_values": 7200,
+      "quality_counts": {
+        "1": 1666,
+        "2": 5250,
+        "0": 284
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "5S 170W",
+      "latitude": -5.0,
+      "longitude_east": 190.0,
+      "accepted_5day_dates": 377,
+      "accepted_temperature_values": 3756,
+      "inspected_values": 3780,
+      "quality_counts": {
+        "1": 1718,
+        "2": 2038,
+        "0": 24
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230915"
+    },
+    {
+      "station": "5S 180W",
+      "latitude": -5.0,
+      "longitude_east": 180.0,
+      "accepted_5day_dates": 515,
+      "accepted_temperature_values": 5124,
+      "inspected_values": 5760,
+      "quality_counts": {
+        "1": 2427,
+        "2": 2697,
+        "0": 636
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230831"
+    },
+    {
+      "station": "5S  95W",
+      "latitude": -5.0,
+      "longitude_east": 265.0,
+      "accepted_5day_dates": 479,
+      "accepted_temperature_values": 4869,
+      "inspected_values": 5358,
+      "quality_counts": {
+        "1": 2229,
+        "2": 2640,
+        "0": 489
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "8N 110W",
+      "latitude": 8.0,
+      "longitude_east": 250.0,
+      "accepted_5day_dates": 714,
+      "accepted_temperature_values": 6730,
+      "inspected_values": 7247,
+      "quality_counts": {
+        "2": 4677,
+        "1": 2053,
+        "0": 517
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "8N 125W",
+      "latitude": 8.0,
+      "longitude_east": 235.0,
+      "accepted_5day_dates": 440,
+      "accepted_temperature_values": 4293,
+      "inspected_values": 4560,
+      "quality_counts": {
+        "1": 2427,
+        "2": 1866,
+        "0": 267
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20220925"
+    },
+    {
+      "station": "8N 137E",
+      "latitude": 8.0,
+      "longitude_east": 137.0,
+      "accepted_5day_dates": 452,
+      "accepted_temperature_values": 4468,
+      "inspected_values": 4520,
+      "quality_counts": {
+        "1": 4468,
+        "0": 52
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20210607"
+    },
+    {
+      "station": "8N 155W",
+      "latitude": 8.0,
+      "longitude_east": 205.0,
+      "accepted_5day_dates": 494,
+      "accepted_temperature_values": 4797,
+      "inspected_values": 5480,
+      "quality_counts": {
+        "1": 1845,
+        "2": 2952,
+        "0": 683
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230617"
+    },
+    {
+      "station": "8N 165E",
+      "latitude": 8.0,
+      "longitude_east": 165.0,
+      "accepted_5day_dates": 483,
+      "accepted_temperature_values": 5291,
+      "inspected_values": 6931,
+      "quality_counts": {
+        "1": 1417,
+        "0": 1640,
+        "2": 3874
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "8N 170W",
+      "latitude": 8.0,
+      "longitude_east": 190.0,
+      "accepted_5day_dates": 588,
+      "accepted_temperature_values": 5855,
+      "inspected_values": 5930,
+      "quality_counts": {
+        "2": 5031,
+        "1": 824,
+        "0": 75
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "8N 180W",
+      "latitude": 8.0,
+      "longitude_east": 180.0,
+      "accepted_5day_dates": 488,
+      "accepted_temperature_values": 4733,
+      "inspected_values": 5310,
+      "quality_counts": {
+        "1": 2387,
+        "2": 2346,
+        "0": 577
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20240816"
+    },
+    {
+      "station": "8N  95W",
+      "latitude": 8.0,
+      "longitude_east": 265.0,
+      "accepted_5day_dates": 367,
+      "accepted_temperature_values": 3570,
+      "inspected_values": 3775,
+      "quality_counts": {
+        "2": 1627,
+        "1": 1943,
+        "0": 205
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "8S 110W",
+      "latitude": -8.0,
+      "longitude_east": 250.0,
+      "accepted_5day_dates": 657,
+      "accepted_temperature_values": 6535,
+      "inspected_values": 6994,
+      "quality_counts": {
+        "1": 2176,
+        "0": 459,
+        "2": 4359
+      },
+      "first_valid_date": "20150428",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "8S 125W",
+      "latitude": -8.0,
+      "longitude_east": 235.0,
+      "accepted_5day_dates": 481,
+      "accepted_temperature_values": 4636,
+      "inspected_values": 5100,
+      "quality_counts": {
+        "1": 2506,
+        "2": 2130,
+        "0": 464
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20220324"
+    },
+    {
+      "station": "8S 155W",
+      "latitude": -8.0,
+      "longitude_east": 205.0,
+      "accepted_5day_dates": 469,
+      "accepted_temperature_values": 4635,
+      "inspected_values": 4730,
+      "quality_counts": {
+        "2": 2654,
+        "1": 1981,
+        "0": 95
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230910"
+    },
+    {
+      "station": "8S 165E",
+      "latitude": -8.0,
+      "longitude_east": 165.0,
+      "accepted_5day_dates": 392,
+      "accepted_temperature_values": 3789,
+      "inspected_values": 3930,
+      "quality_counts": {
+        "0": 141,
+        "2": 2333,
+        "1": 1456
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "8S 170W",
+      "latitude": -8.0,
+      "longitude_east": 190.0,
+      "accepted_5day_dates": 586,
+      "accepted_temperature_values": 5787,
+      "inspected_values": 5870,
+      "quality_counts": {
+        "1": 2130,
+        "2": 3657,
+        "0": 83
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "8S 180W",
+      "latitude": -8.0,
+      "longitude_east": 180.0,
+      "accepted_5day_dates": 535,
+      "accepted_temperature_values": 5520,
+      "inspected_values": 5887,
+      "quality_counts": {
+        "1": 2954,
+        "0": 367,
+        "2": 2566
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20230905"
+    },
+    {
+      "station": "8S  95W",
+      "latitude": -8.0,
+      "longitude_east": 265.0,
+      "accepted_5day_dates": 352,
+      "accepted_temperature_values": 3611,
+      "inspected_values": 3951,
+      "quality_counts": {
+        "2": 1411,
+        "1": 2200,
+        "0": 340
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250627"
+    },
+    {
+      "station": "9N 140W",
+      "latitude": 9.0,
+      "longitude_east": 220.0,
+      "accepted_5day_dates": 498,
+      "accepted_temperature_values": 4787,
+      "inspected_values": 4990,
+      "quality_counts": {
+        "1": 2376,
+        "0": 203,
+        "2": 2411
+      },
+      "first_valid_date": "20150403",
+      "last_valid_date": "20250418"
+    }
+  ],
+  "cell_size_degrees": 1,
+  "count_range": [
+    1,
+    291
+  ],
+  "argo_qc": "Pacific ocean flag P; index only; no temperature/salinity or depth QC available.",
+  "tao_qc": "At least one finite nonmissing 5–500 m temperature with QC 1, 2 or 3.",
+  "projection": "Plate Carree / geographic longitude-latitude",
+  "land": "Natural Earth 1:110m land v4.1.0, WGS84",
+  "caveat": "Time-aggregated presence/counts do not establish monthly continuity or independent samples."
+}

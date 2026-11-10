@@ -1,0 +1,9 @@
+numpy>=2.0
+scipy>=1.13
+xarray>=2024.7
+netCDF4>=1.7
+gsw>=3.6
+requests>=2.32
+copernicusmarine>=2.4
+earthaccess>=0.15
+cdsapi>=0.7

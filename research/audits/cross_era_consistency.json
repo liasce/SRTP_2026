@@ -1,0 +1,1360 @@
+{
+  "audit_months": [
+    "200501",
+    "201001",
+    "201501"
+  ],
+  "reference_month": "201801",
+  "interpretation": "Format/coverage audit only; three January samples cannot prove full-period homogeneity.",
+  "products": {
+    "CORA": {
+      "status": "consistent",
+      "grid_identical": true,
+      "field_schema_identical_by_variable": {
+        "TEMP": true,
+        "PSAL": true
+      },
+      "months": {
+        "200501": {
+          "fields": {
+            "TEMP": {
+              "time": "2005-01-15 00:00:00",
+              "statistics": {
+                "TEMP": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9214297618589761,
+                  "min": 6.347999999999999,
+                  "max": 30.367,
+                  "mean": 17.430711594980654
+                },
+                "TEMP_ERR": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9203461649521416,
+                  "min": 0.07200000000000001,
+                  "max": 2.527,
+                  "mean": 0.44843828573513267
+                },
+                "TEMP_PCTVAR": {
+                  "count": 1638063,
+                  "valid_fraction": 1.0,
+                  "min": 14.0,
+                  "max": 100.0,
+                  "mean": 59.05979806637474
+                }
+              },
+              "variables": [
+                "longitude",
+                "latitude",
+                "depth",
+                "time",
+                "TEMP",
+                "TEMP_ERR",
+                "TEMP_PCTVAR"
+              ],
+              "units": "degree_Celsius",
+              "standard_name": "sea_water_temperature",
+              "source": "ISAS-V8",
+              "grid_shape": [
+                187,
+                545,
+                720
+              ]
+            },
+            "PSAL": {
+              "time": "2005-01-15 00:00:00",
+              "statistics": {
+                "PSAL": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9214297618589761,
+                  "min": 30.651,
+                  "max": 37.079,
+                  "mean": 34.868494740817304
+                },
+                "PSAL_ERR": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9203461649521416,
+                  "min": 0.005,
+                  "max": 0.592,
+                  "mean": 0.07246166882795996
+                },
+                "PSAL_PCTVAR": {
+                  "count": 1638063,
+                  "valid_fraction": 1.0,
+                  "min": 19.0,
+                  "max": 100.0,
+                  "mean": 69.86103586980477
+                }
+              },
+              "variables": [
+                "longitude",
+                "latitude",
+                "depth",
+                "time",
+                "PSAL",
+                "PSAL_ERR",
+                "PSAL_PCTVAR"
+              ],
+              "units": "PSS-78",
+              "standard_name": "sea_water_salinity",
+              "source": "ISAS-V8",
+              "grid_shape": [
+                187,
+                545,
+                720
+              ]
+            }
+          },
+          "input_profiles": {
+            "TEMP": {
+              "profiles": 29631,
+              "levels": 187,
+              "first_time": "2004-12-04 00:00:00",
+              "last_time": "2005-02-25 23:59:22",
+              "variables": [
+                "REFERENCE_DATE_TIME",
+                "DATA_TYPE",
+                "PLATFORM_NUMBER",
+                "WMO_INST_TYPE",
+                "DC_REFERENCE",
+                "JULD",
+                "LATITUDE",
+                "LONGITUDE",
+                "DEPH",
+                "TEMP_PROC",
+                "TEMP_QC",
+                "TEMP",
+                "TEMP_CLMN",
+                "TEMP_CLSD",
+                "TEMP_ERME",
+                "TEMP_ERUR",
+                "TEMP_RESI"
+              ],
+              "software_version": "POSTOA_main - 7.0"
+            },
+            "PSAL": {
+              "profiles": 21810,
+              "levels": 187,
+              "first_time": "2004-12-04 00:00:00",
+              "last_time": "2005-02-25 23:59:22",
+              "variables": [
+                "REFERENCE_DATE_TIME",
+                "DATA_TYPE",
+                "PLATFORM_NUMBER",
+                "WMO_INST_TYPE",
+                "DC_REFERENCE",
+                "JULD",
+                "LATITUDE",
+                "LONGITUDE",
+                "DEPH",
+                "PSAL_PROC",
+                "PSAL_QC",
+                "PSAL",
+                "PSAL_CLMN",
+                "PSAL_CLSD",
+                "PSAL_ERME",
+                "PSAL_ERUR",
+                "PSAL_RESI"
+              ],
+              "software_version": "POSTOA_main - 7.0"
+            }
+          }
+        },
+        "201001": {
+          "fields": {
+            "TEMP": {
+              "time": "2010-01-15 00:00:00",
+              "statistics": {
+                "TEMP": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9214297618589761,
+                  "min": 5.921999999999999,
+                  "max": 30.508000000000003,
+                  "mean": 17.44647176816664
+                },
+                "TEMP_ERR": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9203461649521416,
+                  "min": 0.059000000000000004,
+                  "max": 2.348,
+                  "mean": 0.3813092508880096
+                },
+                "TEMP_PCTVAR": {
+                  "count": 1638063,
+                  "valid_fraction": 1.0,
+                  "min": 9.0,
+                  "max": 100.0,
+                  "mean": 45.24940066407702
+                }
+              },
+              "variables": [
+                "longitude",
+                "latitude",
+                "depth",
+                "time",
+                "TEMP",
+                "TEMP_ERR",
+                "TEMP_PCTVAR"
+              ],
+              "units": "degree_Celsius",
+              "standard_name": "sea_water_temperature",
+              "source": "ISAS-V8",
+              "grid_shape": [
+                187,
+                545,
+                720
+              ]
+            },
+            "PSAL": {
+              "time": "2010-01-15 00:00:00",
+              "statistics": {
+                "PSAL": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9214297618589761,
+                  "min": 30.449,
+                  "max": 37.007,
+                  "mean": 34.88790774831716
+                },
+                "PSAL_ERR": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9203461649521416,
+                  "min": 0.004,
+                  "max": 0.592,
+                  "mean": 0.06153761081464727
+                },
+                "PSAL_PCTVAR": {
+                  "count": 1638063,
+                  "valid_fraction": 1.0,
+                  "min": 11.0,
+                  "max": 100.0,
+                  "mean": 51.3015054976518
+                }
+              },
+              "variables": [
+                "longitude",
+                "latitude",
+                "depth",
+                "time",
+                "PSAL",
+                "PSAL_ERR",
+                "PSAL_PCTVAR"
+              ],
+              "units": "PSS-78",
+              "standard_name": "sea_water_salinity",
+              "source": "ISAS-V8",
+              "grid_shape": [
+                187,
+                545,
+                720
+              ]
+            }
+          },
+          "input_profiles": {
+            "TEMP": {
+              "profiles": 41960,
+              "levels": 187,
+              "first_time": "2009-12-04 00:00:00",
+              "last_time": "2010-02-25 23:59:58",
+              "variables": [
+                "REFERENCE_DATE_TIME",
+                "DATA_TYPE",
+                "PLATFORM_NUMBER",
+                "WMO_INST_TYPE",
+                "DC_REFERENCE",
+                "JULD",
+                "LATITUDE",
+                "LONGITUDE",
+                "DEPH",
+                "TEMP_PROC",
+                "TEMP_QC",
+                "TEMP",
+                "TEMP_CLMN",
+                "TEMP_CLSD",
+                "TEMP_ERME",
+                "TEMP_ERUR",
+                "TEMP_RESI"
+              ],
+              "software_version": "POSTOA_main - 7.0"
+            },
+            "PSAL": {
+              "profiles": 37065,
+              "levels": 187,
+              "first_time": "2009-12-04 00:00:00",
+              "last_time": "2010-02-25 23:59:58",
+              "variables": [
+                "REFERENCE_DATE_TIME",
+                "DATA_TYPE",
+                "PLATFORM_NUMBER",
+                "WMO_INST_TYPE",
+                "DC_REFERENCE",
+                "JULD",
+                "LATITUDE",
+                "LONGITUDE",
+                "DEPH",
+                "PSAL_PROC",
+                "PSAL_QC",
+                "PSAL",
+                "PSAL_CLMN",
+                "PSAL_CLSD",
+                "PSAL_ERME",
+                "PSAL_ERUR",
+                "PSAL_RESI"
+              ],
+              "software_version": "POSTOA_main - 7.0"
+            }
+          }
+        },
+        "201501": {
+          "fields": {
+            "TEMP": {
+              "time": "2015-01-15 00:00:00",
+              "statistics": {
+                "TEMP": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9214297618589761,
+                  "min": 6.398999999999999,
+                  "max": 30.672,
+                  "mean": 17.406371016854827
+                },
+                "TEMP_ERR": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9203461649521416,
+                  "min": 0.061,
+                  "max": 2.346,
+                  "mean": 0.3500555424735587
+                },
+                "TEMP_PCTVAR": {
+                  "count": 1638063,
+                  "valid_fraction": 1.0,
+                  "min": 8.0,
+                  "max": 100.0,
+                  "mean": 39.655691508812545
+                }
+              },
+              "variables": [
+                "longitude",
+                "latitude",
+                "depth",
+                "time",
+                "TEMP",
+                "TEMP_ERR",
+                "TEMP_PCTVAR"
+              ],
+              "units": "degree_Celsius",
+              "standard_name": "sea_water_temperature",
+              "source": "ISAS-V8",
+              "grid_shape": [
+                187,
+                545,
+                720
+              ]
+            },
+            "PSAL": {
+              "time": "2015-01-15 00:00:00",
+              "statistics": {
+                "PSAL": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9214297618589761,
+                  "min": 30.753,
+                  "max": 37.01,
+                  "mean": 34.87336221643611
+                },
+                "PSAL_ERR": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9203461649521416,
+                  "min": 0.004,
+                  "max": 0.592,
+                  "mean": 0.05570105632518233
+                },
+                "PSAL_PCTVAR": {
+                  "count": 1638063,
+                  "valid_fraction": 1.0,
+                  "min": 9.0,
+                  "max": 100.0,
+                  "mean": 44.731106801142566
+                }
+              },
+              "variables": [
+                "longitude",
+                "latitude",
+                "depth",
+                "time",
+                "PSAL",
+                "PSAL_ERR",
+                "PSAL_PCTVAR"
+              ],
+              "units": "PSS-78",
+              "standard_name": "sea_water_salinity",
+              "source": "ISAS-V8",
+              "grid_shape": [
+                187,
+                545,
+                720
+              ]
+            }
+          },
+          "input_profiles": {
+            "TEMP": {
+              "profiles": 53246,
+              "levels": 187,
+              "first_time": "2014-12-04 00:00:00",
+              "last_time": "2015-02-25 23:59:00",
+              "variables": [
+                "REFERENCE_DATE_TIME",
+                "DATA_TYPE",
+                "PLATFORM_NUMBER",
+                "WMO_INST_TYPE",
+                "DC_REFERENCE",
+                "JULD",
+                "LATITUDE",
+                "LONGITUDE",
+                "DEPH",
+                "TEMP_PROC",
+                "TEMP_QC",
+                "TEMP",
+                "TEMP_CLMN",
+                "TEMP_CLSD",
+                "TEMP_ERME",
+                "TEMP_ERUR",
+                "TEMP_RESI"
+              ],
+              "software_version": "POSTOA_main - 7.0"
+            },
+            "PSAL": {
+              "profiles": 47779,
+              "levels": 187,
+              "first_time": "2014-12-04 00:01:00",
+              "last_time": "2015-02-25 23:59:00",
+              "variables": [
+                "REFERENCE_DATE_TIME",
+                "DATA_TYPE",
+                "PLATFORM_NUMBER",
+                "WMO_INST_TYPE",
+                "DC_REFERENCE",
+                "JULD",
+                "LATITUDE",
+                "LONGITUDE",
+                "DEPH",
+                "PSAL_PROC",
+                "PSAL_QC",
+                "PSAL",
+                "PSAL_CLMN",
+                "PSAL_CLSD",
+                "PSAL_ERME",
+                "PSAL_ERUR",
+                "PSAL_RESI"
+              ],
+              "software_version": "POSTOA_main - 7.0"
+            }
+          }
+        },
+        "201801": {
+          "fields": {
+            "TEMP": {
+              "time": "2018-01-15 00:00:00",
+              "statistics": {
+                "TEMP": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9214297618589761,
+                  "min": 6.214,
+                  "max": 30.988,
+                  "mean": 17.424576195871097
+                },
+                "TEMP_ERR": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9203461649521416,
+                  "min": 0.058,
+                  "max": 2.324,
+                  "mean": 0.35585150157370893
+                },
+                "TEMP_PCTVAR": {
+                  "count": 1638063,
+                  "valid_fraction": 1.0,
+                  "min": 7.0,
+                  "max": 100.0,
+                  "mean": 40.606020647557514
+                }
+              },
+              "variables": [
+                "longitude",
+                "latitude",
+                "depth",
+                "time",
+                "TEMP",
+                "TEMP_ERR",
+                "TEMP_PCTVAR"
+              ],
+              "units": "degree_Celsius",
+              "standard_name": "sea_water_temperature",
+              "source": "ISAS-V8",
+              "grid_shape": [
+                187,
+                545,
+                720
+              ]
+            },
+            "PSAL": {
+              "time": "2018-01-15 00:00:00",
+              "statistics": {
+                "PSAL": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9214297618589761,
+                  "min": 30.6,
+                  "max": 37.105000000000004,
+                  "mean": 34.86013067657815
+                },
+                "PSAL_ERR": {
+                  "count": 1638063,
+                  "valid_fraction": 0.9203461649521416,
+                  "min": 0.004,
+                  "max": 0.592,
+                  "mean": 0.057926193879615416
+                },
+                "PSAL_PCTVAR": {
+                  "count": 1638063,
+                  "valid_fraction": 1.0,
+                  "min": 9.0,
+                  "max": 100.0,
+                  "mean": 46.98891068292245
+                }
+              },
+              "variables": [
+                "longitude",
+                "latitude",
+                "depth",
+                "time",
+                "PSAL",
+                "PSAL_ERR",
+                "PSAL_PCTVAR"
+              ],
+              "units": "PSS-78",
+              "standard_name": "sea_water_salinity",
+              "source": "ISAS-V8",
+              "grid_shape": [
+                187,
+                545,
+                720
+              ]
+            }
+          },
+          "input_profiles": {
+            "TEMP": {
+              "profiles": 52805,
+              "levels": 187,
+              "first_time": "2017-12-04 00:02:25",
+              "last_time": "2018-02-25 23:58:38",
+              "variables": [
+                "REFERENCE_DATE_TIME",
+                "DATA_TYPE",
+                "PLATFORM_NUMBER",
+                "WMO_INST_TYPE",
+                "DC_REFERENCE",
+                "JULD",
+                "LATITUDE",
+                "LONGITUDE",
+                "DEPH",
+                "TEMP_PROC",
+                "TEMP_QC",
+                "TEMP",
+                "TEMP_CLMN",
+                "TEMP_CLSD",
+                "TEMP_ERME",
+                "TEMP_ERUR",
+                "TEMP_RESI"
+              ],
+              "software_version": "POSTOA_main - 7.0"
+            },
+            "PSAL": {
+              "profiles": 46907,
+              "levels": 187,
+              "first_time": "2017-12-04 00:02:25",
+              "last_time": "2018-02-25 23:58:38",
+              "variables": [
+                "REFERENCE_DATE_TIME",
+                "DATA_TYPE",
+                "PLATFORM_NUMBER",
+                "WMO_INST_TYPE",
+                "DC_REFERENCE",
+                "JULD",
+                "LATITUDE",
+                "LONGITUDE",
+                "DEPH",
+                "PSAL_PROC",
+                "PSAL_QC",
+                "PSAL",
+                "PSAL_CLMN",
+                "PSAL_CLSD",
+                "PSAL_ERME",
+                "PSAL_ERUR",
+                "PSAL_RESI"
+              ],
+              "software_version": "POSTOA_main - 7.0"
+            }
+          }
+        }
+      }
+    },
+    "OISST": {
+      "status": "consistent_with_time_encoding_change",
+      "grid_identical": true,
+      "data_schema_identical": true,
+      "time_coordinate_dtype": {
+        "200501": "float32",
+        "201001": "float32",
+        "201501": "float32",
+        "201801": "float64"
+      },
+      "months": {
+        "200501": {
+          "files": 31,
+          "calendar_complete": true,
+          "product_versions": [
+            "Version v02r01"
+          ],
+          "sst_valid_fraction_mean": 0.9488281249999997
+        },
+        "201001": {
+          "files": 31,
+          "calendar_complete": true,
+          "product_versions": [
+            "Version v02r01"
+          ],
+          "sst_valid_fraction_mean": 0.9488281249999997
+        },
+        "201501": {
+          "files": 31,
+          "calendar_complete": true,
+          "product_versions": [
+            "Version v02r01"
+          ],
+          "sst_valid_fraction_mean": 0.9488281249999997
+        },
+        "201801": {
+          "files": 31,
+          "calendar_complete": true,
+          "product_versions": [
+            "Version v02r01"
+          ],
+          "sst_valid_fraction_mean": 0.9488281249999997
+        }
+      }
+    },
+    "ADT": {
+      "status": "consistent",
+      "coordinate_identical_within_region": true,
+      "schema_identical": true,
+      "time_complete": true,
+      "months": {
+        "200501": {
+          "regions": {
+            "west": {
+              "shape": {
+                "time": 31,
+                "latitude": 322,
+                "longitude": 480
+              },
+              "time": [
+                "2005-01-01 00:00:00",
+                "2005-01-02 00:00:00",
+                "2005-01-03 00:00:00",
+                "2005-01-04 00:00:00",
+                "2005-01-05 00:00:00",
+                "2005-01-06 00:00:00",
+                "2005-01-07 00:00:00",
+                "2005-01-08 00:00:00",
+                "2005-01-09 00:00:00",
+                "2005-01-10 00:00:00",
+                "2005-01-11 00:00:00",
+                "2005-01-12 00:00:00",
+                "2005-01-13 00:00:00",
+                "2005-01-14 00:00:00",
+                "2005-01-15 00:00:00",
+                "2005-01-16 00:00:00",
+                "2005-01-17 00:00:00",
+                "2005-01-18 00:00:00",
+                "2005-01-19 00:00:00",
+                "2005-01-20 00:00:00",
+                "2005-01-21 00:00:00",
+                "2005-01-22 00:00:00",
+                "2005-01-23 00:00:00",
+                "2005-01-24 00:00:00",
+                "2005-01-25 00:00:00",
+                "2005-01-26 00:00:00",
+                "2005-01-27 00:00:00",
+                "2005-01-28 00:00:00",
+                "2005-01-29 00:00:00",
+                "2005-01-30 00:00:00",
+                "2005-01-31 00:00:00"
+              ],
+              "variables": {
+                "adt": {
+                  "count": 4791360,
+                  "valid_fraction": 0.9011969461697723,
+                  "min": 0.7276,
+                  "max": 1.5588000000000002,
+                  "mean": 1.0864640808307815,
+                  "units": "m"
+                }
+              },
+              "product_version": "vNov2024"
+            },
+            "east": {
+              "shape": {
+                "time": 31,
+                "latitude": 322,
+                "longitude": 800
+              },
+              "time": [
+                "2005-01-01 00:00:00",
+                "2005-01-02 00:00:00",
+                "2005-01-03 00:00:00",
+                "2005-01-04 00:00:00",
+                "2005-01-05 00:00:00",
+                "2005-01-06 00:00:00",
+                "2005-01-07 00:00:00",
+                "2005-01-08 00:00:00",
+                "2005-01-09 00:00:00",
+                "2005-01-10 00:00:00",
+                "2005-01-11 00:00:00",
+                "2005-01-12 00:00:00",
+                "2005-01-13 00:00:00",
+                "2005-01-14 00:00:00",
+                "2005-01-15 00:00:00",
+                "2005-01-16 00:00:00",
+                "2005-01-17 00:00:00",
+                "2005-01-18 00:00:00",
+                "2005-01-19 00:00:00",
+                "2005-01-20 00:00:00",
+                "2005-01-21 00:00:00",
+                "2005-01-22 00:00:00",
+                "2005-01-23 00:00:00",
+                "2005-01-24 00:00:00",
+                "2005-01-25 00:00:00",
+                "2005-01-26 00:00:00",
+                "2005-01-27 00:00:00",
+                "2005-01-28 00:00:00",
+                "2005-01-29 00:00:00",
+                "2005-01-30 00:00:00",
+                "2005-01-31 00:00:00"
+              ],
+              "variables": {
+                "adt": {
+                  "count": 7985600,
+                  "valid_fraction": 0.9778416149068323,
+                  "min": 0.1312,
+                  "max": 1.4015,
+                  "mean": 0.8427511896675637,
+                  "units": "m"
+                }
+              },
+              "product_version": "vNov2024"
+            }
+          }
+        },
+        "201001": {
+          "regions": {
+            "west": {
+              "shape": {
+                "time": 31,
+                "latitude": 322,
+                "longitude": 480
+              },
+              "time": [
+                "2010-01-01 00:00:00",
+                "2010-01-02 00:00:00",
+                "2010-01-03 00:00:00",
+                "2010-01-04 00:00:00",
+                "2010-01-05 00:00:00",
+                "2010-01-06 00:00:00",
+                "2010-01-07 00:00:00",
+                "2010-01-08 00:00:00",
+                "2010-01-09 00:00:00",
+                "2010-01-10 00:00:00",
+                "2010-01-11 00:00:00",
+                "2010-01-12 00:00:00",
+                "2010-01-13 00:00:00",
+                "2010-01-14 00:00:00",
+                "2010-01-15 00:00:00",
+                "2010-01-16 00:00:00",
+                "2010-01-17 00:00:00",
+                "2010-01-18 00:00:00",
+                "2010-01-19 00:00:00",
+                "2010-01-20 00:00:00",
+                "2010-01-21 00:00:00",
+                "2010-01-22 00:00:00",
+                "2010-01-23 00:00:00",
+                "2010-01-24 00:00:00",
+                "2010-01-25 00:00:00",
+                "2010-01-26 00:00:00",
+                "2010-01-27 00:00:00",
+                "2010-01-28 00:00:00",
+                "2010-01-29 00:00:00",
+                "2010-01-30 00:00:00",
+                "2010-01-31 00:00:00"
+              ],
+              "variables": {
+                "adt": {
+                  "count": 4791360,
+                  "valid_fraction": 0.9011969461697723,
+                  "min": 0.5918,
+                  "max": 1.6083,
+                  "mean": 1.0878227951678097,
+                  "units": "m"
+                }
+              },
+              "product_version": "vNov2024"
+            },
+            "east": {
+              "shape": {
+                "time": 31,
+                "latitude": 322,
+                "longitude": 800
+              },
+              "time": [
+                "2010-01-01 00:00:00",
+                "2010-01-02 00:00:00",
+                "2010-01-03 00:00:00",
+                "2010-01-04 00:00:00",
+                "2010-01-05 00:00:00",
+                "2010-01-06 00:00:00",
+                "2010-01-07 00:00:00",
+                "2010-01-08 00:00:00",
+                "2010-01-09 00:00:00",
+                "2010-01-10 00:00:00",
+                "2010-01-11 00:00:00",
+                "2010-01-12 00:00:00",
+                "2010-01-13 00:00:00",
+                "2010-01-14 00:00:00",
+                "2010-01-15 00:00:00",
+                "2010-01-16 00:00:00",
+                "2010-01-17 00:00:00",
+                "2010-01-18 00:00:00",
+                "2010-01-19 00:00:00",
+                "2010-01-20 00:00:00",
+                "2010-01-21 00:00:00",
+                "2010-01-22 00:00:00",
+                "2010-01-23 00:00:00",
+                "2010-01-24 00:00:00",
+                "2010-01-25 00:00:00",
+                "2010-01-26 00:00:00",
+                "2010-01-27 00:00:00",
+                "2010-01-28 00:00:00",
+                "2010-01-29 00:00:00",
+                "2010-01-30 00:00:00",
+                "2010-01-31 00:00:00"
+              ],
+              "variables": {
+                "adt": {
+                  "count": 7985600,
+                  "valid_fraction": 0.9778416149068323,
+                  "min": 0.0528,
+                  "max": 1.2873,
+                  "mean": 0.8599511543349608,
+                  "units": "m"
+                }
+              },
+              "product_version": "vNov2024"
+            }
+          }
+        },
+        "201501": {
+          "regions": {
+            "west": {
+              "shape": {
+                "time": 31,
+                "latitude": 322,
+                "longitude": 480
+              },
+              "time": [
+                "2015-01-01 00:00:00",
+                "2015-01-02 00:00:00",
+                "2015-01-03 00:00:00",
+                "2015-01-04 00:00:00",
+                "2015-01-05 00:00:00",
+                "2015-01-06 00:00:00",
+                "2015-01-07 00:00:00",
+                "2015-01-08 00:00:00",
+                "2015-01-09 00:00:00",
+                "2015-01-10 00:00:00",
+                "2015-01-11 00:00:00",
+                "2015-01-12 00:00:00",
+                "2015-01-13 00:00:00",
+                "2015-01-14 00:00:00",
+                "2015-01-15 00:00:00",
+                "2015-01-16 00:00:00",
+                "2015-01-17 00:00:00",
+                "2015-01-18 00:00:00",
+                "2015-01-19 00:00:00",
+                "2015-01-20 00:00:00",
+                "2015-01-21 00:00:00",
+                "2015-01-22 00:00:00",
+                "2015-01-23 00:00:00",
+                "2015-01-24 00:00:00",
+                "2015-01-25 00:00:00",
+                "2015-01-26 00:00:00",
+                "2015-01-27 00:00:00",
+                "2015-01-28 00:00:00",
+                "2015-01-29 00:00:00",
+                "2015-01-30 00:00:00",
+                "2015-01-31 00:00:00"
+              ],
+              "variables": {
+                "adt": {
+                  "count": 4791360,
+                  "valid_fraction": 0.9011969461697723,
+                  "min": 0.7243,
+                  "max": 1.5237,
+                  "mean": 1.135180684276993,
+                  "units": "m"
+                }
+              },
+              "product_version": "vNov2024"
+            },
+            "east": {
+              "shape": {
+                "time": 31,
+                "latitude": 322,
+                "longitude": 800
+              },
+              "time": [
+                "2015-01-01 00:00:00",
+                "2015-01-02 00:00:00",
+                "2015-01-03 00:00:00",
+                "2015-01-04 00:00:00",
+                "2015-01-05 00:00:00",
+                "2015-01-06 00:00:00",
+                "2015-01-07 00:00:00",
+                "2015-01-08 00:00:00",
+                "2015-01-09 00:00:00",
+                "2015-01-10 00:00:00",
+                "2015-01-11 00:00:00",
+                "2015-01-12 00:00:00",
+                "2015-01-13 00:00:00",
+                "2015-01-14 00:00:00",
+                "2015-01-15 00:00:00",
+                "2015-01-16 00:00:00",
+                "2015-01-17 00:00:00",
+                "2015-01-18 00:00:00",
+                "2015-01-19 00:00:00",
+                "2015-01-20 00:00:00",
+                "2015-01-21 00:00:00",
+                "2015-01-22 00:00:00",
+                "2015-01-23 00:00:00",
+                "2015-01-24 00:00:00",
+                "2015-01-25 00:00:00",
+                "2015-01-26 00:00:00",
+                "2015-01-27 00:00:00",
+                "2015-01-28 00:00:00",
+                "2015-01-29 00:00:00",
+                "2015-01-30 00:00:00",
+                "2015-01-31 00:00:00"
+              ],
+              "variables": {
+                "adt": {
+                  "count": 7985600,
+                  "valid_fraction": 0.9778416149068323,
+                  "min": 0.10930000000000001,
+                  "max": 1.3134000000000001,
+                  "mean": 0.8729055865980454,
+                  "units": "m"
+                }
+              },
+              "product_version": "vNov2024"
+            }
+          }
+        },
+        "201801": {
+          "regions": {
+            "west": {
+              "shape": {
+                "time": 31,
+                "latitude": 322,
+                "longitude": 480
+              },
+              "time": [
+                "2018-01-01 00:00:00",
+                "2018-01-02 00:00:00",
+                "2018-01-03 00:00:00",
+                "2018-01-04 00:00:00",
+                "2018-01-05 00:00:00",
+                "2018-01-06 00:00:00",
+                "2018-01-07 00:00:00",
+                "2018-01-08 00:00:00",
+                "2018-01-09 00:00:00",
+                "2018-01-10 00:00:00",
+                "2018-01-11 00:00:00",
+                "2018-01-12 00:00:00",
+                "2018-01-13 00:00:00",
+                "2018-01-14 00:00:00",
+                "2018-01-15 00:00:00",
+                "2018-01-16 00:00:00",
+                "2018-01-17 00:00:00",
+                "2018-01-18 00:00:00",
+                "2018-01-19 00:00:00",
+                "2018-01-20 00:00:00",
+                "2018-01-21 00:00:00",
+                "2018-01-22 00:00:00",
+                "2018-01-23 00:00:00",
+                "2018-01-24 00:00:00",
+                "2018-01-25 00:00:00",
+                "2018-01-26 00:00:00",
+                "2018-01-27 00:00:00",
+                "2018-01-28 00:00:00",
+                "2018-01-29 00:00:00",
+                "2018-01-30 00:00:00",
+                "2018-01-31 00:00:00"
+              ],
+              "variables": {
+                "adt": {
+                  "count": 4791360,
+                  "valid_fraction": 0.9011969461697723,
+                  "min": 0.8007000000000001,
+                  "max": 1.6852,
+                  "mean": 1.1942318926372388,
+                  "units": "m"
+                }
+              },
+              "product_version": "vNov2024"
+            },
+            "east": {
+              "shape": {
+                "time": 31,
+                "latitude": 322,
+                "longitude": 800
+              },
+              "time": [
+                "2018-01-01 00:00:00",
+                "2018-01-02 00:00:00",
+                "2018-01-03 00:00:00",
+                "2018-01-04 00:00:00",
+                "2018-01-05 00:00:00",
+                "2018-01-06 00:00:00",
+                "2018-01-07 00:00:00",
+                "2018-01-08 00:00:00",
+                "2018-01-09 00:00:00",
+                "2018-01-10 00:00:00",
+                "2018-01-11 00:00:00",
+                "2018-01-12 00:00:00",
+                "2018-01-13 00:00:00",
+                "2018-01-14 00:00:00",
+                "2018-01-15 00:00:00",
+                "2018-01-16 00:00:00",
+                "2018-01-17 00:00:00",
+                "2018-01-18 00:00:00",
+                "2018-01-19 00:00:00",
+                "2018-01-20 00:00:00",
+                "2018-01-21 00:00:00",
+                "2018-01-22 00:00:00",
+                "2018-01-23 00:00:00",
+                "2018-01-24 00:00:00",
+                "2018-01-25 00:00:00",
+                "2018-01-26 00:00:00",
+                "2018-01-27 00:00:00",
+                "2018-01-28 00:00:00",
+                "2018-01-29 00:00:00",
+                "2018-01-30 00:00:00",
+                "2018-01-31 00:00:00"
+              ],
+              "variables": {
+                "adt": {
+                  "count": 7985600,
+                  "valid_fraction": 0.9778416149068323,
+                  "min": 0.075,
+                  "max": 1.3832,
+                  "mean": 0.8519691069470122,
+                  "units": "m"
+                }
+              },
+              "product_version": "vNov2024"
+            }
+          }
+        }
+      }
+    },
+    "ERA5": {
+      "status": "consistent",
+      "coordinate_identical_within_region": true,
+      "schema_identical": true,
+      "time_complete": true,
+      "months": {
+        "200501": {
+          "regions": {
+            "west": {
+              "shape": {
+                "valid_time": 1,
+                "latitude": 163,
+                "longitude": 241
+              },
+              "time": [
+                "2005-01-01 00:00:00"
+              ],
+              "variables": {
+                "u10": {
+                  "count": 39283,
+                  "valid_fraction": 1.0,
+                  "min": -7.807721138000488,
+                  "max": 7.223528861999512,
+                  "mean": -1.696498430440125,
+                  "units": "m s**-1"
+                },
+                "v10": {
+                  "count": 39283,
+                  "valid_fraction": 1.0,
+                  "min": -7.146547317504883,
+                  "max": 3.118589401245117,
+                  "mean": -1.7671832269233971,
+                  "units": "m s**-1"
+                }
+              },
+              "product_version": null
+            },
+            "east": {
+              "shape": {
+                "valid_time": 1,
+                "latitude": 163,
+                "longitude": 401
+              },
+              "time": [
+                "2005-01-01 00:00:00"
+              ],
+              "variables": {
+                "u10": {
+                  "count": 65363,
+                  "valid_fraction": 1.0,
+                  "min": -10.031842231750488,
+                  "max": 3.6790952682495117,
+                  "mean": -5.1704231633124955,
+                  "units": "m s**-1"
+                },
+                "v10": {
+                  "count": 65363,
+                  "valid_fraction": 1.0,
+                  "min": -11.103578567504883,
+                  "max": 5.948667526245117,
+                  "mean": -0.06536590382761127,
+                  "units": "m s**-1"
+                }
+              },
+              "product_version": null
+            }
+          }
+        },
+        "201001": {
+          "regions": {
+            "west": {
+              "shape": {
+                "valid_time": 1,
+                "latitude": 163,
+                "longitude": 241
+              },
+              "time": [
+                "2010-01-01 00:00:00"
+              ],
+              "variables": {
+                "u10": {
+                  "count": 39283,
+                  "valid_fraction": 1.0,
+                  "min": -9.274239540100098,
+                  "max": 8.709158897399902,
+                  "mean": -2.1798226296760594,
+                  "units": "m s**-1"
+                },
+                "v10": {
+                  "count": 39283,
+                  "valid_fraction": 1.0,
+                  "min": -8.181821823120117,
+                  "max": 3.719057083129883,
+                  "mean": -2.086001907380484,
+                  "units": "m s**-1"
+                }
+              },
+              "product_version": null
+            },
+            "east": {
+              "shape": {
+                "valid_time": 1,
+                "latitude": 163,
+                "longitude": 401
+              },
+              "time": [
+                "2010-01-01 00:00:00"
+              ],
+              "variables": {
+                "u10": {
+                  "count": 65363,
+                  "valid_fraction": 1.0,
+                  "min": -9.256173133850098,
+                  "max": 3.7521276473999023,
+                  "mean": -5.0306311889496,
+                  "units": "m s**-1"
+                },
+                "v10": {
+                  "count": 65363,
+                  "valid_fraction": 1.0,
+                  "min": -10.678403854370117,
+                  "max": 6.001283645629883,
+                  "mean": -0.31728340372334457,
+                  "units": "m s**-1"
+                }
+              },
+              "product_version": null
+            }
+          }
+        },
+        "201501": {
+          "regions": {
+            "west": {
+              "shape": {
+                "valid_time": 1,
+                "latitude": 163,
+                "longitude": 241
+              },
+              "time": [
+                "2015-01-01 00:00:00"
+              ],
+              "variables": {
+                "u10": {
+                  "count": 39283,
+                  "valid_fraction": 1.0,
+                  "min": -10.277240753173828,
+                  "max": 8.162212371826172,
+                  "mean": -1.525853794776589,
+                  "units": "m s**-1"
+                },
+                "v10": {
+                  "count": 39283,
+                  "valid_fraction": 1.0,
+                  "min": -8.352762222290039,
+                  "max": 2.277120590209961,
+                  "mean": -2.052709932455696,
+                  "units": "m s**-1"
+                }
+              },
+              "product_version": null
+            },
+            "east": {
+              "shape": {
+                "valid_time": 1,
+                "latitude": 163,
+                "longitude": 401
+              },
+              "time": [
+                "2015-01-01 00:00:00"
+              ],
+              "variables": {
+                "u10": {
+                  "count": 65363,
+                  "valid_fraction": 1.0,
+                  "min": -9.979877471923828,
+                  "max": 4.080181121826172,
+                  "mean": -4.441618395269701,
+                  "units": "m s**-1"
+                },
+                "v10": {
+                  "count": 65363,
+                  "valid_fraction": 1.0,
+                  "min": -13.579813003540039,
+                  "max": 5.806417465209961,
+                  "mean": -0.24510116320940475,
+                  "units": "m s**-1"
+                }
+              },
+              "product_version": null
+            }
+          }
+        }
+      }
+    },
+    "Argo": {
+      "status": "format_consistent_with_early_coverage_warning",
+      "caveat": "Schema consistency does not imply equal adjusted-data availability or vertical coverage.",
+      "months": {
+        "200501": {
+          "files": 50,
+          "files_missing_required_adjusted_fields": 1,
+          "missing_adjusted_field_files": [
+            {
+              "file": "aoml/5900768/profiles/D5900768_010.nc",
+              "missing": [
+                "PSAL_ADJUSTED",
+                "PSAL_ADJUSTED_QC"
+              ]
+            }
+          ],
+          "time_qc_profiles": {
+            "8": 20,
+            "1": 30
+          },
+          "position_qc_profiles": {
+            "1": 50
+          },
+          "profiles": 50,
+          "eligible_profiles": 30,
+          "temperature_points": 951,
+          "salinity_points": 888,
+          "joint_points": 886,
+          "target_temperature_points": 887,
+          "target_joint_points": 827,
+          "data_mode_profiles": {
+            "D": 50
+          },
+          "temperature_profiles_at_500m": 14,
+          "joint_TS_profiles_at_500m": 13,
+          "processed_profiles": 50
+        },
+        "201001": {
+          "files": 50,
+          "files_missing_required_adjusted_fields": 0,
+          "missing_adjusted_field_files": [],
+          "time_qc_profiles": {
+            "1": 50,
+            "8": 3
+          },
+          "position_qc_profiles": {
+            "1": 53
+          },
+          "profiles": 53,
+          "eligible_profiles": 50,
+          "temperature_points": 5054,
+          "salinity_points": 5039,
+          "joint_points": 5039,
+          "target_temperature_points": 2491,
+          "target_joint_points": 2487,
+          "data_mode_profiles": {
+            "D": 51,
+            "A": 2
+          },
+          "temperature_profiles_at_500m": 36,
+          "joint_TS_profiles_at_500m": 36,
+          "processed_profiles": 53
+        },
+        "201501": {
+          "files": 50,
+          "files_missing_required_adjusted_fields": 0,
+          "missing_adjusted_field_files": [],
+          "time_qc_profiles": {
+            "1": 68
+          },
+          "position_qc_profiles": {
+            "1": 68
+          },
+          "profiles": 68,
+          "eligible_profiles": 68,
+          "temperature_points": 29032,
+          "salinity_points": 27901,
+          "joint_points": 27901,
+          "target_temperature_points": 2778,
+          "target_joint_points": 2601,
+          "data_mode_profiles": {
+            "D": 63,
+            "A": 4,
+            "R": 1
+          },
+          "temperature_profiles_at_500m": 45,
+          "joint_TS_profiles_at_500m": 42,
+          "processed_profiles": 68
+        }
+      }
+    }
+  },
+  "status": "passed_with_documented_coverage_changes"
+}

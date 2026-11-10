@@ -1,0 +1,26 @@
+{
+  "product_type": [
+    "monthly_averaged_reanalysis"
+  ],
+  "variable": [
+    "10m_u_component_of_wind",
+    "10m_v_component_of_wind"
+  ],
+  "year": [
+    "2018"
+  ],
+  "month": [
+    "04"
+  ],
+  "time": [
+    "00:00"
+  ],
+  "data_format": "netcdf",
+  "download_format": "unarchived",
+  "area": [
+    20.25,
+    120,
+    -20.25,
+    180
+  ]
+}

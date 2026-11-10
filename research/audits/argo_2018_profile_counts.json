@@ -1,0 +1,212 @@
+{
+  "status": "passed",
+  "scope": "2018 processed Argo profile records and C/Q/E role manifest",
+  "processed_files": 29122,
+  "role_records": 25436,
+  "fixed_e_platforms": 155,
+  "unreadable_files": [],
+  "months": [
+    {
+      "month": "201801",
+      "raw_profile_records": 3252,
+      "deduplicated_profile_identities": 2361,
+      "qc_valid_profiles": 2087,
+      "roles": {
+        "C": 852,
+        "Q": 827,
+        "E": 408
+      },
+      "platforms": {
+        "C": 456,
+        "Q": 449,
+        "E": 117
+      }
+    },
+    {
+      "month": "201802",
+      "raw_profile_records": 2958,
+      "deduplicated_profile_identities": 2143,
+      "qc_valid_profiles": 1877,
+      "roles": {
+        "C": 764,
+        "Q": 741,
+        "E": 372
+      },
+      "platforms": {
+        "C": 439,
+        "Q": 433,
+        "E": 114
+      }
+    },
+    {
+      "month": "201803",
+      "raw_profile_records": 3228,
+      "deduplicated_profile_identities": 2353,
+      "qc_valid_profiles": 2054,
+      "roles": {
+        "C": 825,
+        "Q": 799,
+        "E": 430
+      },
+      "platforms": {
+        "C": 445,
+        "Q": 438,
+        "E": 110
+      }
+    },
+    {
+      "month": "201804",
+      "raw_profile_records": 3265,
+      "deduplicated_profile_identities": 2329,
+      "qc_valid_profiles": 2028,
+      "roles": {
+        "C": 772,
+        "Q": 832,
+        "E": 424
+      },
+      "platforms": {
+        "C": 420,
+        "Q": 435,
+        "E": 111
+      }
+    },
+    {
+      "month": "201805",
+      "raw_profile_records": 3349,
+      "deduplicated_profile_identities": 2378,
+      "qc_valid_profiles": 2089,
+      "roles": {
+        "C": 847,
+        "Q": 853,
+        "E": 389
+      },
+      "platforms": {
+        "C": 442,
+        "Q": 440,
+        "E": 109
+      }
+    },
+    {
+      "month": "201806",
+      "raw_profile_records": 3227,
+      "deduplicated_profile_identities": 2269,
+      "qc_valid_profiles": 1981,
+      "roles": {
+        "C": 788,
+        "Q": 809,
+        "E": 384
+      },
+      "platforms": {
+        "C": 426,
+        "Q": 426,
+        "E": 105
+      }
+    },
+    {
+      "month": "201807",
+      "raw_profile_records": 3282,
+      "deduplicated_profile_identities": 2324,
+      "qc_valid_profiles": 2015,
+      "roles": {
+        "C": 840,
+        "Q": 793,
+        "E": 382
+      },
+      "platforms": {
+        "C": 425,
+        "Q": 411,
+        "E": 102
+      }
+    },
+    {
+      "month": "201808",
+      "raw_profile_records": 3588,
+      "deduplicated_profile_identities": 2488,
+      "qc_valid_profiles": 2180,
+      "roles": {
+        "C": 920,
+        "Q": 847,
+        "E": 413
+      },
+      "platforms": {
+        "C": 458,
+        "Q": 445,
+        "E": 115
+      }
+    },
+    {
+      "month": "201809",
+      "raw_profile_records": 4013,
+      "deduplicated_profile_identities": 2692,
+      "qc_valid_profiles": 2387,
+      "roles": {
+        "C": 983,
+        "Q": 948,
+        "E": 456
+      },
+      "platforms": {
+        "C": 480,
+        "Q": 464,
+        "E": 118
+      }
+    },
+    {
+      "month": "201810",
+      "raw_profile_records": 4279,
+      "deduplicated_profile_identities": 2745,
+      "qc_valid_profiles": 2381,
+      "roles": {
+        "C": 1002,
+        "Q": 969,
+        "E": 410
+      },
+      "platforms": {
+        "C": 496,
+        "Q": 484,
+        "E": 116
+      }
+    },
+    {
+      "month": "201811",
+      "raw_profile_records": 3889,
+      "deduplicated_profile_identities": 2552,
+      "qc_valid_profiles": 2209,
+      "roles": {
+        "C": 928,
+        "Q": 913,
+        "E": 368
+      },
+      "platforms": {
+        "C": 470,
+        "Q": 476,
+        "E": 115
+      }
+    },
+    {
+      "month": "201812",
+      "raw_profile_records": 3766,
+      "deduplicated_profile_identities": 2488,
+      "qc_valid_profiles": 2148,
+      "roles": {
+        "C": 890,
+        "Q": 889,
+        "E": 369
+      },
+      "platforms": {
+        "C": 457,
+        "Q": 453,
+        "E": 112
+      }
+    }
+  ],
+  "totals": {
+    "raw_profile_records": 42096,
+    "deduplicated_profile_identities": 29122,
+    "qc_valid_profiles": 25436,
+    "roles": {
+      "C": 10411,
+      "Q": 10220,
+      "E": 4805
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "mode": "full",
+  "months": 2,
+  "shapes": {
+    "surface": [
+      5,
+      81,
+      321
+    ],
+    "surface_mask": [
+      5,
+      81,
+      321
+    ],
+    "sparse": [
+      2,
+      60,
+      81,
+      321
+    ],
+    "sparse_mask": [
+      2,
+      60,
+      81,
+      321
+    ],
+    "target": [
+      2,
+      60,
+      81,
+      321
+    ],
+    "target_mask": [
+      2,
+      60,
+      81,
+      321
+    ]
+  },
+  "normalization_fitted_months": [
+    "201801",
+    "201807"
+  ],
+  "platforms": 86,
+  "checks": [
+    {
+      "month": "201801",
+      "split": "finetune",
+      "surface_valid_fraction": 0.9589707851409912,
+      "sparse_valid_points": 4998,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201807",
+      "split": "finetune",
+      "surface_valid_fraction": 0.9589784741401672,
+      "sparse_valid_points": 4166,
+      "target_valid_fraction": 0.920473575592041
+    }
+  ]
+}

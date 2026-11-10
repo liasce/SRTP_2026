@@ -1,0 +1,110 @@
+{
+  "created_at_utc": "2026-11-07T12:27:54.495994+00:00",
+  "scope": "2018 common-modality raw files and the directly related Argo GDAC index",
+  "inventory": "research/audits/raw_2018_common_inventory.jsonl",
+  "files": 29583,
+  "reused_cached_records": 29583,
+  "bytes": 5815096013,
+  "by_source": {
+    "cora": {
+      "files": 48,
+      "bytes": 3294942173
+    },
+    "oisst": {
+      "files": 365,
+      "bytes": 607102985
+    },
+    "adt": {
+      "files": 24,
+      "bytes": 178932113
+    },
+    "era5": {
+      "files": 24,
+      "bytes": 9688518
+    },
+    "argo": {
+      "files": 29122,
+      "bytes": 1724430224
+    }
+  },
+  "coverage_checks": {
+    "cora": {
+      "expected": 48,
+      "actual": 48,
+      "missing": [],
+      "duplicates": []
+    },
+    "oisst": {
+      "expected": 365,
+      "actual": 365,
+      "missing_dates": [],
+      "duplicate_dates": []
+    },
+    "adt": {
+      "expected": 24,
+      "actual": 24,
+      "missing": [],
+      "duplicates": []
+    },
+    "era5": {
+      "expected": 24,
+      "actual": 24,
+      "missing": [],
+      "duplicates": []
+    },
+    "argo": {
+      "expected_unique_relative_paths": 29122,
+      "actual": 29122,
+      "missing_relative_paths": [],
+      "unexpected_relative_paths": []
+    }
+  },
+  "argo_monthly_expected_counts": {
+    "201801": 2361,
+    "201802": 2143,
+    "201803": 2353,
+    "201804": 2329,
+    "201805": 2378,
+    "201806": 2269,
+    "201807": 2324,
+    "201808": 2488,
+    "201809": 2692,
+    "201810": 2745,
+    "201811": 2552,
+    "201812": 2488
+  },
+  "unreadable_count": 0,
+  "unreadable_paths": [],
+  "temporary_file_count": 0,
+  "temporary_paths": [],
+  "zero_byte_count": 0,
+  "zero_byte_paths": [],
+  "abnormally_small": {
+    "cora": {
+      "rule": "bytes < max(1024, 10% of source median)",
+      "threshold_bytes": 6265528,
+      "paths": []
+    },
+    "oisst": {
+      "rule": "bytes < max(1024, 10% of source median)",
+      "threshold_bytes": 166111,
+      "paths": []
+    },
+    "adt": {
+      "rule": "bytes < max(1024, 10% of source median)",
+      "threshold_bytes": 715060,
+      "paths": []
+    },
+    "era5": {
+      "rule": "bytes < max(1024, 10% of source median)",
+      "threshold_bytes": 33377,
+      "paths": []
+    },
+    "argo": {
+      "rule": "bytes < max(1024, 10% of source median)",
+      "threshold_bytes": 5985,
+      "paths": []
+    }
+  },
+  "status": "passed"
+}

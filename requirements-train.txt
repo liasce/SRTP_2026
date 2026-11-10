@@ -1,0 +1,2 @@
+# Install the PyTorch build matching the server CUDA version first.
+torch>=2.3

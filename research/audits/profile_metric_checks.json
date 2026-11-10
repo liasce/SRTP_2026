@@ -1,0 +1,66 @@
+{
+  "status": "partial: D20 validated; TEOS-10/N2 pending gsw dependency",
+  "synthetic_d20_checks": "passed",
+  "cora": [
+    {
+      "file": "data/raw/cora/original_202603/OA_CORA5.2_20180115_fld_TEMP.nc",
+      "grid_profiles": 26001,
+      "wet_profiles": 24891,
+      "d20_profiles": 23919,
+      "d20_fraction_of_wet": 0.96095,
+      "d20": {
+        "count": 23919,
+        "mean_m": 145.084,
+        "median_m": 153.602,
+        "p05_m": 38.44,
+        "p95_m": 234.262
+      }
+    },
+    {
+      "file": "data/raw/cora/original_202603/OA_CORA5.2_20180715_fld_TEMP.nc",
+      "grid_profiles": 26001,
+      "wet_profiles": 24891,
+      "d20_profiles": 23632,
+      "d20_fraction_of_wet": 0.949419,
+      "d20": {
+        "count": 23632,
+        "mean_m": 146.206,
+        "median_m": 145.883,
+        "p05_m": 53.193,
+        "p95_m": 237.059
+      }
+    }
+  ],
+  "tao": [
+    {
+      "file": "data/raw/tao_daily/pmelTaoDyT_201801.nc",
+      "qc_rule": "QT_5020 in {1,2,3}",
+      "valid_station_days": 1767,
+      "d20_station_days": 1738,
+      "stations_with_d20": 57,
+      "stations_with_at_least_20_d20_days": 56,
+      "d20": {
+        "count": 1738,
+        "mean_m": 128.371,
+        "median_m": 136.623,
+        "p05_m": 33.432,
+        "p95_m": 215.158
+      }
+    },
+    {
+      "file": "data/raw/tao_daily/pmelTaoDyT_201807.nc",
+      "qc_rule": "QT_5020 in {1,2,3}",
+      "valid_station_days": 1724,
+      "d20_station_days": 1664,
+      "stations_with_d20": 55,
+      "stations_with_at_least_20_d20_days": 53,
+      "d20": {
+        "count": 1664,
+        "mean_m": 127.11,
+        "median_m": 128.778,
+        "p05_m": 50.258,
+        "p95_m": 213.444
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-11-07T09:16:06.354494+00:00",
+  "credentials_recorded": false,
+  "targets": {
+    "201808_west": {
+      "request_id": "949af6fa-8cd0-4429-9478-461a763658c9",
+      "status": "accepted",
+      "last_checked_at_utc": "2026-11-07T09:23:56.003321+00:00"
+    },
+    "201804_west": {
+      "request_id": "7306fcfa-ee67-430f-8e6f-9aa83d0056a9",
+      "status": "accepted",
+      "last_checked_at_utc": "2026-11-07T09:23:56.900138+00:00"
+    },
+    "201803_west": {
+      "request_id": "4e4990a1-7521-4c50-b0e7-f1971e10cbf6",
+      "status": "accepted",
+      "last_checked_at_utc": "2026-11-07T09:35:55.165588+00:00"
+    }
+  },
+  "updated_at_utc": "2026-11-07T09:35:59.307008+00:00"
+}

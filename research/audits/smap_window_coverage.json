@@ -1,0 +1,395 @@
+{
+  "months": [
+    {
+      "month": "201801",
+      "expected_nominal_dates": 31,
+      "present_nominal_dates": 31,
+      "missing_dates": [],
+      "duplicate_dates": [],
+      "calendar_complete": true
+    },
+    {
+      "month": "201807",
+      "expected_nominal_dates": 31,
+      "present_nominal_dates": 31,
+      "missing_dates": [],
+      "duplicate_dates": [],
+      "calendar_complete": true
+    }
+  ],
+  "files": [
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_001_FNL_v06.0.nc",
+      "nominal_date": "2018-01-01",
+      "support_start": "2017-12-28T12:00:00+00:00",
+      "support_end": "2018-01-05T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_002_FNL_v06.0.nc",
+      "nominal_date": "2018-01-02",
+      "support_start": "2017-12-29T12:00:00+00:00",
+      "support_end": "2018-01-06T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_003_FNL_v06.0.nc",
+      "nominal_date": "2018-01-03",
+      "support_start": "2017-12-30T12:00:00+00:00",
+      "support_end": "2018-01-07T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_004_FNL_v06.0.nc",
+      "nominal_date": "2018-01-04",
+      "support_start": "2017-12-31T12:00:00+00:00",
+      "support_end": "2018-01-08T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_005_FNL_v06.0.nc",
+      "nominal_date": "2018-01-05",
+      "support_start": "2018-01-01T12:00:00+00:00",
+      "support_end": "2018-01-09T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_006_FNL_v06.0.nc",
+      "nominal_date": "2018-01-06",
+      "support_start": "2018-01-02T12:00:00+00:00",
+      "support_end": "2018-01-10T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_007_FNL_v06.0.nc",
+      "nominal_date": "2018-01-07",
+      "support_start": "2018-01-03T12:00:00+00:00",
+      "support_end": "2018-01-11T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_008_FNL_v06.0.nc",
+      "nominal_date": "2018-01-08",
+      "support_start": "2018-01-04T12:00:00+00:00",
+      "support_end": "2018-01-12T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_009_FNL_v06.0.nc",
+      "nominal_date": "2018-01-09",
+      "support_start": "2018-01-05T12:00:00+00:00",
+      "support_end": "2018-01-13T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_010_FNL_v06.0.nc",
+      "nominal_date": "2018-01-10",
+      "support_start": "2018-01-06T12:00:00+00:00",
+      "support_end": "2018-01-14T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_011_FNL_v06.0.nc",
+      "nominal_date": "2018-01-11",
+      "support_start": "2018-01-07T12:00:00+00:00",
+      "support_end": "2018-01-15T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_012_FNL_v06.0.nc",
+      "nominal_date": "2018-01-12",
+      "support_start": "2018-01-08T12:00:00+00:00",
+      "support_end": "2018-01-16T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_013_FNL_v06.0.nc",
+      "nominal_date": "2018-01-13",
+      "support_start": "2018-01-09T12:00:00+00:00",
+      "support_end": "2018-01-17T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_014_FNL_v06.0.nc",
+      "nominal_date": "2018-01-14",
+      "support_start": "2018-01-10T12:00:00+00:00",
+      "support_end": "2018-01-18T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_015_FNL_v06.0.nc",
+      "nominal_date": "2018-01-15",
+      "support_start": "2018-01-11T12:00:00+00:00",
+      "support_end": "2018-01-19T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_016_FNL_v06.0.nc",
+      "nominal_date": "2018-01-16",
+      "support_start": "2018-01-12T12:00:00+00:00",
+      "support_end": "2018-01-20T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_017_FNL_v06.0.nc",
+      "nominal_date": "2018-01-17",
+      "support_start": "2018-01-13T12:00:00+00:00",
+      "support_end": "2018-01-21T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_018_FNL_v06.0.nc",
+      "nominal_date": "2018-01-18",
+      "support_start": "2018-01-14T12:00:00+00:00",
+      "support_end": "2018-01-22T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_019_FNL_v06.0.nc",
+      "nominal_date": "2018-01-19",
+      "support_start": "2018-01-15T12:00:00+00:00",
+      "support_end": "2018-01-23T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_020_FNL_v06.0.nc",
+      "nominal_date": "2018-01-20",
+      "support_start": "2018-01-16T12:00:00+00:00",
+      "support_end": "2018-01-24T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_021_FNL_v06.0.nc",
+      "nominal_date": "2018-01-21",
+      "support_start": "2018-01-17T12:00:00+00:00",
+      "support_end": "2018-01-25T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_022_FNL_v06.0.nc",
+      "nominal_date": "2018-01-22",
+      "support_start": "2018-01-18T12:00:00+00:00",
+      "support_end": "2018-01-26T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_023_FNL_v06.0.nc",
+      "nominal_date": "2018-01-23",
+      "support_start": "2018-01-19T12:00:00+00:00",
+      "support_end": "2018-01-27T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_024_FNL_v06.0.nc",
+      "nominal_date": "2018-01-24",
+      "support_start": "2018-01-20T12:00:00+00:00",
+      "support_end": "2018-01-28T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_025_FNL_v06.0.nc",
+      "nominal_date": "2018-01-25",
+      "support_start": "2018-01-21T12:00:00+00:00",
+      "support_end": "2018-01-29T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_026_FNL_v06.0.nc",
+      "nominal_date": "2018-01-26",
+      "support_start": "2018-01-22T12:00:00+00:00",
+      "support_end": "2018-01-30T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_027_FNL_v06.0.nc",
+      "nominal_date": "2018-01-27",
+      "support_start": "2018-01-23T12:00:00+00:00",
+      "support_end": "2018-01-31T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_028_FNL_v06.0.nc",
+      "nominal_date": "2018-01-28",
+      "support_start": "2018-01-24T12:00:00+00:00",
+      "support_end": "2018-02-01T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_029_FNL_v06.0.nc",
+      "nominal_date": "2018-01-29",
+      "support_start": "2018-01-25T12:00:00+00:00",
+      "support_end": "2018-02-02T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_030_FNL_v06.0.nc",
+      "nominal_date": "2018-01-30",
+      "support_start": "2018-01-26T12:00:00+00:00",
+      "support_end": "2018-02-03T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_031_FNL_v06.0.nc",
+      "nominal_date": "2018-01-31",
+      "support_start": "2018-01-27T12:00:00+00:00",
+      "support_end": "2018-02-04T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_182_FNL_v06.0.nc",
+      "nominal_date": "2018-07-01",
+      "support_start": "2018-06-27T12:00:00+00:00",
+      "support_end": "2018-07-05T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_183_FNL_v06.0.nc",
+      "nominal_date": "2018-07-02",
+      "support_start": "2018-06-28T12:00:00+00:00",
+      "support_end": "2018-07-06T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_184_FNL_v06.0.nc",
+      "nominal_date": "2018-07-03",
+      "support_start": "2018-06-29T12:00:00+00:00",
+      "support_end": "2018-07-07T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_185_FNL_v06.0.nc",
+      "nominal_date": "2018-07-04",
+      "support_start": "2018-06-30T12:00:00+00:00",
+      "support_end": "2018-07-08T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_186_FNL_v06.0.nc",
+      "nominal_date": "2018-07-05",
+      "support_start": "2018-07-01T12:00:00+00:00",
+      "support_end": "2018-07-09T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_187_FNL_v06.0.nc",
+      "nominal_date": "2018-07-06",
+      "support_start": "2018-07-02T12:00:00+00:00",
+      "support_end": "2018-07-10T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_188_FNL_v06.0.nc",
+      "nominal_date": "2018-07-07",
+      "support_start": "2018-07-03T12:00:00+00:00",
+      "support_end": "2018-07-11T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_189_FNL_v06.0.nc",
+      "nominal_date": "2018-07-08",
+      "support_start": "2018-07-04T12:00:00+00:00",
+      "support_end": "2018-07-12T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_190_FNL_v06.0.nc",
+      "nominal_date": "2018-07-09",
+      "support_start": "2018-07-05T12:00:00+00:00",
+      "support_end": "2018-07-13T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_191_FNL_v06.0.nc",
+      "nominal_date": "2018-07-10",
+      "support_start": "2018-07-06T12:00:00+00:00",
+      "support_end": "2018-07-14T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_192_FNL_v06.0.nc",
+      "nominal_date": "2018-07-11",
+      "support_start": "2018-07-07T12:00:00+00:00",
+      "support_end": "2018-07-15T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_193_FNL_v06.0.nc",
+      "nominal_date": "2018-07-12",
+      "support_start": "2018-07-08T12:00:00+00:00",
+      "support_end": "2018-07-16T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_194_FNL_v06.0.nc",
+      "nominal_date": "2018-07-13",
+      "support_start": "2018-07-09T12:00:00+00:00",
+      "support_end": "2018-07-17T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_195_FNL_v06.0.nc",
+      "nominal_date": "2018-07-14",
+      "support_start": "2018-07-10T12:00:00+00:00",
+      "support_end": "2018-07-18T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_196_FNL_v06.0.nc",
+      "nominal_date": "2018-07-15",
+      "support_start": "2018-07-11T12:00:00+00:00",
+      "support_end": "2018-07-19T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_197_FNL_v06.0.nc",
+      "nominal_date": "2018-07-16",
+      "support_start": "2018-07-12T12:00:00+00:00",
+      "support_end": "2018-07-20T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_198_FNL_v06.0.nc",
+      "nominal_date": "2018-07-17",
+      "support_start": "2018-07-13T12:00:00+00:00",
+      "support_end": "2018-07-21T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_199_FNL_v06.0.nc",
+      "nominal_date": "2018-07-18",
+      "support_start": "2018-07-14T12:00:00+00:00",
+      "support_end": "2018-07-22T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_200_FNL_v06.0.nc",
+      "nominal_date": "2018-07-19",
+      "support_start": "2018-07-15T12:00:00+00:00",
+      "support_end": "2018-07-23T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_201_FNL_v06.0.nc",
+      "nominal_date": "2018-07-20",
+      "support_start": "2018-07-16T12:00:00+00:00",
+      "support_end": "2018-07-24T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_202_FNL_v06.0.nc",
+      "nominal_date": "2018-07-21",
+      "support_start": "2018-07-17T12:00:00+00:00",
+      "support_end": "2018-07-25T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_203_FNL_v06.0.nc",
+      "nominal_date": "2018-07-22",
+      "support_start": "2018-07-18T12:00:00+00:00",
+      "support_end": "2018-07-26T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_204_FNL_v06.0.nc",
+      "nominal_date": "2018-07-23",
+      "support_start": "2018-07-19T12:00:00+00:00",
+      "support_end": "2018-07-27T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_205_FNL_v06.0.nc",
+      "nominal_date": "2018-07-24",
+      "support_start": "2018-07-20T12:00:00+00:00",
+      "support_end": "2018-07-28T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_206_FNL_v06.0.nc",
+      "nominal_date": "2018-07-25",
+      "support_start": "2018-07-21T12:00:00+00:00",
+      "support_end": "2018-07-29T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_207_FNL_v06.0.nc",
+      "nominal_date": "2018-07-26",
+      "support_start": "2018-07-22T12:00:00+00:00",
+      "support_end": "2018-07-30T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_208_FNL_v06.0.nc",
+      "nominal_date": "2018-07-27",
+      "support_start": "2018-07-23T12:00:00+00:00",
+      "support_end": "2018-07-31T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_209_FNL_v06.0.nc",
+      "nominal_date": "2018-07-28",
+      "support_start": "2018-07-24T12:00:00+00:00",
+      "support_end": "2018-08-01T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_210_FNL_v06.0.nc",
+      "nominal_date": "2018-07-29",
+      "support_start": "2018-07-25T12:00:00+00:00",
+      "support_end": "2018-08-02T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_211_FNL_v06.0.nc",
+      "nominal_date": "2018-07-30",
+      "support_start": "2018-07-26T12:00:00+00:00",
+      "support_end": "2018-08-03T12:00:00+00:00"
+    },
+    {
+      "path": "RSS_smap_SSS_L3_8day_running_2018_212_FNL_v06.0.nc",
+      "nominal_date": "2018-07-31",
+      "support_start": "2018-07-27T12:00:00+00:00",
+      "support_end": "2018-08-04T12:00:00+00:00"
+    }
+  ],
+  "interpretation": "Calendar completeness only; monthly aggregate retains overlapping 8-day support and is not an independent daily-observation mean."
+}

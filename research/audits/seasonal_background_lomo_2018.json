@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "scientific_label": "single-year leave-one-month-out engineering seasonal background",
+  "not_claimed": "multi-year monthly climatology",
+  "source_manifest": "data\\processed\\training_manifest_common.json",
+  "target_month_excluded": true,
+  "minimum_support": 6,
+  "outputs": [
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201801.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201802.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201803.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201804.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201805.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201806.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201807.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201808.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201809.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201810.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201811.nc",
+    "data\\processed\\baselines\\seasonal_background_lomo_2018_201812.nc"
+  ]
+}

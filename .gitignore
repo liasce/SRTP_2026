@@ -1,0 +1,67 @@
+# OS, editors, Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.codex/
+.agents/
+
+# Local environments and credentials
+.venv/
+.venv-*/
+.uv-cache/
+.uv-python/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Reacquirable data; keep compact manifests in research/audits.
+/data/raw/
+/data/reference/
+/data/processed/
+/data/cache/
+/data/download_cache/
+*.nc
+*.nc4
+*.grib
+*.grib2
+*.zarr/
+*.npy
+*.npz
+*.parquet
+
+# Local source material and large generated inventories
+/literature/papers/
+/research/presentations/
+/research/figures/**/*.pdf
+/research/figures/**/*.svg
+/research/paper_cards/**/source_bundle.json
+/research/audits/argo_candidates.csv
+/research/audits/raw_2018_common_inventory.jsonl
+
+# Training and experiment artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+/checkpoints/
+/outputs/
+/runs/
+/logs/
+/wandb/
+/mlruns/
+/lightning_logs/
+*.log
+*.part
+*.part.*
+*.tmp
+
+# Local migration/export bundles
+/exports/

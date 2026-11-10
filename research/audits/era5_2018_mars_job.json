@@ -1,0 +1,30 @@
+{
+  "dataset": "reanalysis-era5-complete",
+  "request_id": "091965fd-2858-422f-8ce2-5423f764cb4f",
+  "status": "rejected",
+  "months": [
+    "201803",
+    "201804",
+    "201805",
+    "201806",
+    "201807",
+    "201808",
+    "201809",
+    "201810",
+    "201811",
+    "201812"
+  ],
+  "area_0_360": [
+    20.25,
+    120,
+    -20.25,
+    280
+  ],
+  "stream": "moda",
+  "parameters": [
+    165,
+    166
+  ],
+  "credentials_recorded": false,
+  "updated_at_utc": "2026-11-07T09:23:21.731685+00:00"
+}

@@ -1,0 +1,105 @@
+{
+  "created_at_utc": "2026-11-07T13:03:43.015379+00:00",
+  "status": "completed",
+  "fit_role": "C only",
+  "Q_used": false,
+  "E_used": false,
+  "fit_months": [
+    "201801",
+    "201802",
+    "201803",
+    "201804",
+    "201805",
+    "201806",
+    "201807",
+    "201808",
+    "201809",
+    "201810",
+    "201811",
+    "201812"
+  ],
+  "monthly_context_profiles": {
+    "201801": 852,
+    "201802": 764,
+    "201803": 825,
+    "201804": 772,
+    "201805": 847,
+    "201806": 788,
+    "201807": 840,
+    "201808": 920,
+    "201809": 983,
+    "201810": 1002,
+    "201811": 928,
+    "201812": 890
+  },
+  "background": "single-year leave-one-month-out engineering seasonal background",
+  "horizontal_scale_candidates_km": [
+    500,
+    1000,
+    2000
+  ],
+  "horizontal_scale_selection": "2018 Q only in evaluate_oi_baseline.py; E report-only",
+  "vertical_scale_m": 50,
+  "covariance": "sigma_b^2 exp(-0.5*(horizontal/Lh)^2) exp(-abs(vertical)/Lz)",
+  "observation_error": "diag(max(physical floor squared, C innovation variance - median background error variance))",
+  "parameters": {
+    "temperature": {
+      "units": "degree_Celsius",
+      "depth_bands": {
+        "5-100m": {
+          "n": 201266,
+          "innovation_variance": 1.3951564002322085,
+          "background_error_variance": 0.1162298543024119,
+          "observation_error_variance": 1.2789265459297967,
+          "background_variance": 0.11622985430241184,
+          "observation_error_floor": 0.05
+        },
+        "110-300m": {
+          "n": 201880,
+          "innovation_variance": 1.0991919083401938,
+          "background_error_variance": 0.05547695681021846,
+          "observation_error_variance": 1.0437149515299753,
+          "background_variance": 0.05547695681021847,
+          "observation_error_floor": 0.05
+        },
+        "310-500m": {
+          "n": 200463,
+          "innovation_variance": 0.1795861510421003,
+          "background_error_variance": 0.014693675098688137,
+          "observation_error_variance": 0.16489247594341216,
+          "background_variance": 0.01469367509868813,
+          "observation_error_floor": 0.05
+        }
+      }
+    },
+    "salinity": {
+      "units": "g kg-1",
+      "depth_bands": {
+        "5-100m": {
+          "n": 201266,
+          "innovation_variance": 0.032177813677822735,
+          "background_error_variance": 0.0028319874963838505,
+          "observation_error_variance": 0.029345826181438883,
+          "background_variance": 0.0028319874963838518,
+          "observation_error_floor": 0.01
+        },
+        "110-300m": {
+          "n": 201880,
+          "innovation_variance": 0.008880282898640466,
+          "background_error_variance": 0.0004442016678589755,
+          "observation_error_variance": 0.008436081230781491,
+          "background_variance": 0.0004442016678589747,
+          "observation_error_floor": 0.01
+        },
+        "310-500m": {
+          "n": 200463,
+          "innovation_variance": 0.0013770372531385084,
+          "background_error_variance": 6.038706603470027e-05,
+          "observation_error_variance": 0.001316650187103808,
+          "background_variance": 0.0001,
+          "observation_error_floor": 0.01
+        }
+      }
+    }
+  }
+}

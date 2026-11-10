@@ -1,0 +1,14 @@
+{
+  "checked_at_local": "2026-11-06T22:15:44+08:00",
+  "target": "CDS official API host",
+  "credentials_used": false,
+  "credential_values_recorded": false,
+  "proxy_config_present": true,
+  "proxy_route_details_recorded": false,
+  "dns": "ok",
+  "tcp_direct": "ok",
+  "tls_direct": "ok",
+  "http_via_environment": "ok",
+  "http_status": 202,
+  "interpretation": "A credential-free small request reached the official CDS API. This only establishes current staged connectivity; it does not establish authenticated retrieval success or sustained transfer stability."
+}

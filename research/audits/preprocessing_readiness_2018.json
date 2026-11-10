@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "required_months": [
+    "201801",
+    "201802",
+    "201803",
+    "201804",
+    "201805",
+    "201806",
+    "201807",
+    "201808",
+    "201809",
+    "201810",
+    "201811",
+    "201812"
+  ],
+  "completed_processed_sources": {
+    "cora": 12,
+    "oisst_on_cora_grid": 12,
+    "adt_on_cora_grid": 12,
+    "era5_on_cora_grid": 12,
+    "argo_cqe_on_cora_grid": 12
+  },
+  "raw_inventory_status": "passed",
+  "pipeline_validation_status": "passed",
+  "training_manifest": "data/processed/training_manifest_common.json",
+  "normalization": "data/processed/normalization_common.json"
+}

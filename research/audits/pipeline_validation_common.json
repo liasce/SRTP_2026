@@ -1,0 +1,397 @@
+{
+  "status": "passed",
+  "mode": "common",
+  "months": 12,
+  "shapes": {
+    "surface": [
+      12,
+      81,
+      321
+    ],
+    "surface_mask": [
+      12,
+      81,
+      321
+    ],
+    "sparse": [
+      2,
+      60,
+      81,
+      321
+    ],
+    "sparse_mask": [
+      2,
+      60,
+      81,
+      321
+    ],
+    "sparse_position": [
+      3,
+      81,
+      321
+    ],
+    "sparse_position_mask": [
+      3,
+      81,
+      321
+    ],
+    "query_target": [
+      2,
+      60,
+      81,
+      321
+    ],
+    "query_mask": [
+      2,
+      60,
+      81,
+      321
+    ],
+    "target": [
+      2,
+      60,
+      81,
+      321
+    ],
+    "target_mask": [
+      2,
+      60,
+      81,
+      321
+    ]
+  },
+  "normalization_fitted_months": [
+    "201801",
+    "201802",
+    "201803",
+    "201804",
+    "201805",
+    "201806",
+    "201807",
+    "201808",
+    "201809",
+    "201810",
+    "201811",
+    "201812"
+  ],
+  "platforms": 824,
+  "profile_role_counts": {
+    "C": 10411,
+    "E": 4805,
+    "Q": 10220
+  },
+  "checks": [
+    {
+      "month": "201801",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          false,
+          false,
+          true
+        ],
+        "adt": [
+          false,
+          false,
+          true
+        ],
+        "era5": [
+          false,
+          false,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.3242311179637909,
+      "sparse_valid_points": 83872,
+      "query_valid_points": 58506,
+      "position_valid_points": 2106,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201802",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          false,
+          true,
+          true
+        ],
+        "adt": [
+          false,
+          true,
+          true
+        ],
+        "era5": [
+          false,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.6484622359275818,
+      "sparse_valid_points": 72926,
+      "query_valid_points": 55934,
+      "position_valid_points": 1836,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201803",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 80994,
+      "query_valid_points": 55464,
+      "position_valid_points": 2043,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201804",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 75704,
+      "query_valid_points": 57200,
+      "position_valid_points": 1908,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201805",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 80864,
+      "query_valid_points": 56898,
+      "position_valid_points": 2034,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201806",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 74024,
+      "query_valid_points": 53970,
+      "position_valid_points": 1863,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201807",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 79156,
+      "query_valid_points": 52636,
+      "position_valid_points": 1992,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201808",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 83698,
+      "query_valid_points": 53204,
+      "position_valid_points": 2109,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201809",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 85540,
+      "query_valid_points": 57882,
+      "position_valid_points": 2160,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201810",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 86840,
+      "query_valid_points": 56398,
+      "position_valid_points": 2181,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201811",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 85706,
+      "query_valid_points": 57012,
+      "position_valid_points": 2157,
+      "target_valid_fraction": 0.920473575592041
+    },
+    {
+      "month": "201812",
+      "split": "finetune",
+      "surface_history_available_t_minus_2_to_t": {
+        "oisst": [
+          true,
+          true,
+          true
+        ],
+        "adt": [
+          true,
+          true,
+          true
+        ],
+        "era5": [
+          true,
+          true,
+          true
+        ]
+      },
+      "surface_valid_fraction": 0.9726933836936951,
+      "sparse_valid_points": 82794,
+      "query_valid_points": 54850,
+      "position_valid_points": 2085,
+      "target_valid_fraction": 0.920473575592041
+    }
+  ]
+}
